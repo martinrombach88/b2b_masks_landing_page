@@ -11,20 +11,20 @@
         },
         {
             "id": "study_2",
-            "source": "Gallaway et al",
-            "location": "Arizona, USA",
-            "population": "State population",
-            "intervention":"Mandatory mask wearing in public",
-            "outcome":"Subsequent decline in new diagnoses linked to institutional mask wearing policy"      
+            "source": "Wang X et al",
+            "location": "Boston, Massachusetts, USA",
+            "population": "9850 Health care workers",
+            "intervention":"Universal masking of health care workers and patients in the Mass General Brigham hospital",
+            "outcome":"Decline of new diagnoses among health care workers by 3.4% every week"      
 
         },
         {
-            "id":"study_3",
-            "source": "Payne et al",
-            "location": "USS Theodore Roosevelt, Guam",
-            "population": "383 US Navy service members",
-            "intervention":"Self-reported mask wearing",
-            "outcome":"Mask wearing reduced risk of infection by 70%"      
+            "id": "study_3",
+            "source": "Mitze et al",
+            "location": "Jena, Germany",
+            "population": "City population aged 15+",
+            "intervention":"Mandatory mask wearing in public spaces (e.g. public transport, shops)",
+            "outcome":"Decline of new diagnoses among population by 1.32% every day"      
 
         },
         {
@@ -37,59 +37,24 @@
 
         },
         {
-            "id": "study_5",
+            "id":"study_5",
+            "source": "Payne et al",
+            "location": "USS Theodore Roosevelt, Guam",
+            "population": "383 US Navy service members",
+            "intervention":"Self-reported mask wearing",
+            "outcome":"Mask wearing reduced risk of infection by 70%"      
+
+        },
+        {
+            "id": "study_6",
             "source": "Doung-ngern et al",
             "location": "Bangkok, Thailand",
             "population": "839 Close contacts of 211 index cases",
             "intervention":"Self reported mask wearing by contact at time of high-risk exposure to case",
             "outcome":"Always having used a mask reduced infection risk by 77%"      
 
-        },
-        {
-            "id": "study_6",
-            "source": "Hendrix et al",
-            "location": "Hair Salon in Missouri, USA",
-            "population": "139 Patrons at a salon with 2 infected and symptomatic stylists",
-            "intervention":"Universal mask wearing in salon (by local ordinance and company policy)",
-            "outcome":"No Covid-19 infections among 67 patrons who were available for follow up"      
-
-        },
-        {
-            "id": "study_7",
-            "source": "Wang X et al",
-            "location": "Boston, Massachusetts, USA",
-            "population": "9850 Health care workers",
-            "intervention":"Universal masking of health care workers and patients in the Mass General Brigham hospital",
-            "outcome":"Decline of new diagnoses among health care workers by 3.4% every week"      
-
-        },
-        {
-            "id": "study_8",
-            "source": "Mitze et al",
-            "location": "Jena, Germany",
-            "population": "City population aged 15+",
-            "intervention":"Mandatory mask wearing in public spaces (e.g. public transport, shops)",
-            "outcome":"Decline of new diagnoses among population by 1.32% every day"      
-
-        },
-        {
-            "id": "study_9",
-            "source": "Van Dyke et al",
-            "location": "Kansas, USA",
-            "population": "State population",
-            "intervention":"Mandatory mask wearing in public spaces",
-            "outcome":"Decline in new diagnoses in mask wearers by 8% and increase in those without by 11%"      
-
-        },
-        {
-            "id": "study_10",
-            "source": "Lyu and Wehby ",
-            "location": "15 states in USA",
-            "population": "State populations",
-            "intervention":"Mandatory mask wearing in public",
-            "outcome":"Daily decline in new diagnoses by 2%"      
-
         }
+
     ]
 
 }
