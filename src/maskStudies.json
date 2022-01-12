@@ -12,7 +12,7 @@
         {
             "id": "study_2",
             "source": "Gallaway et al",
-            "location": "Arizona",
+            "location": "Arizona, USA",
             "population": "State population",
             "intervention":"Mandatory mask wearing in public",
             "outcome":"Subsequent decline in new diagnoses linked to institutional mask wearing policy"      
@@ -32,7 +32,7 @@
             "source": "Wang Y et al",
             "location": "Households in Beijing, China",
             "population": "124 Households of diagnosed cases comprising 335 people",
-            "intervention":"Self reported mask wearing by index cases or by 1 household member prior to index case’s diagnosis",
+            "intervention":"Self reported mask wearing by victim/victim's family member prior to infection",
             "outcome":"Mask wearing reduced risk of secondary infection by 79%"      
 
         },
@@ -48,7 +48,7 @@
         {
             "id": "study_6",
             "source": "Hendrix et al",
-            "location": "Hair Salon in Springfield, Missouri",
+            "location": "Hair Salon in Missouri, USA",
             "population": "139 Patrons at a salon with 2 infected and symptomatic stylists",
             "intervention":"Universal mask wearing in salon (by local ordinance and company policy)",
             "outcome":"No Covid-19 infections among 67 patrons who were available for follow up"      
@@ -57,7 +57,7 @@
         {
             "id": "study_7",
             "source": "Wang X et al",
-            "location": "Boston, Massachusetts",
+            "location": "Boston, Massachusetts, USA",
             "population": "9850 Health care workers",
             "intervention":"Universal masking of health care workers and patients in the Mass General Brigham hospital",
             "outcome":"Decline of new diagnoses among health care workers by 3.4% every week"      
@@ -75,7 +75,7 @@
         {
             "id": "study_9",
             "source": "Van Dyke et al",
-            "location": "Kansas",
+            "location": "Kansas, USA",
             "population": "State population",
             "intervention":"Mandatory mask wearing in public spaces",
             "outcome":"Decline in new diagnoses in mask wearers by 8% and increase in those without by 11%"      
@@ -84,7 +84,7 @@
         {
             "id": "study_10",
             "source": "Lyu and Wehby ",
-            "location": "15 US states and Washington, DC",
+            "location": "15 states in USA",
             "population": "State populations",
             "intervention":"Mandatory mask wearing in public",
             "outcome":"Daily decline in new diagnoses by 2%"      

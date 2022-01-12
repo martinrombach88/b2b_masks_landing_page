@@ -159,6 +159,12 @@ body {
 }
 
 /* ~~~~~~~~~~~~~~~~ INTERACTIVE MAP / SOCIAL PROOF ~~~~~~~~~~~~~~~~ */
+.credit {
+  width:100%;
+  display:flex;
+  justify-content: flex-end;
+  padding-bottom:10px;
+}
 
 #mapContainer {
   display:flex;
@@ -169,24 +175,25 @@ body {
   color:white;
 }
 
+#mapContainer h3 {
+  margin-bottom:5%;
+}
+
 #worldMap {
   width:90%;
 }
 
-.mapTestButton {
+.mapButton {
   background-color:black;
   color:white;
   border-radius:8px;
   border:none;
   padding:10px;
-  position:absolute;
-  top:13%;
-  left:15%;
 }
   
 
 
-.mapTestButton:hover {
+.mapButton:hover {
   background-color:rgb(80, 80, 80);
   color:white;
 }
@@ -200,20 +207,68 @@ body {
   color:black;
 }
 
-/* #study_1{
+#study_1_btn {
   position:absolute;
-  top:13%;
+  top:30%;
   left:15%;
-} */
+}
 
-/* #study_2{
+ #study_1{
+  position:absolute;
+  top:30%;
+  left:15%;
+} 
+
+/*
+ #study_2{
   position:absolute;
   top:18%;
   left:12%;
-} */
+}
 
-/* #study_2{
+#study_3{
+  position:absolute;
+  top:20%;
+  right:2%;
+} 
+
+#study_4{
+  position:absolute;
+  top:16%;
+  right:2%;
+}
+
+#study_5{
+  position:absolute;
+  top:20%;
+  right:2%;
+}  
+#study_6{
+  position:absolute;
+  top:18%;
+  left:18%;
+} 
+
+#study_7{
   position:absolute;
   top:18%;
   left:12%;
-} */
+} 
+
+ #study_8{
+  position:absolute;
+  top:15%;
+  left:44%;
+}  */
+
+/* #study_9{
+  position:absolute;
+  top:18%;
+  left:10%;
+}   */
+
+/* #study_10{
+  position:absolute;
+  top:16%;
+  left:10%;
+}   */
