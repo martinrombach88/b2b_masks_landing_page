@@ -2,6 +2,7 @@
     "infoList" :  [
         {
             "id": "study_1",
+            "box": "box1Visible",
             "source": "Karaivanov et al",
             "location": "Canada",
             "population": "Country population",
@@ -11,6 +12,7 @@
         },
         {
             "id": "study_2",
+            "box": "box2Visible",
             "source": "Wang X et al",
             "location": "Boston, Massachusetts, USA",
             "population": "9850 Health care workers",
@@ -20,6 +22,7 @@
         },
         {
             "id": "study_3",
+            "box": "box3Visible",
             "source": "Mitze et al",
             "location": "Jena, Germany",
             "population": "City population aged 15+",
@@ -29,6 +32,7 @@
         },
         {
             "id":"study_4",
+            "box": "box4Visible",
             "source": "Wang Y et al",
             "location": "Households in Beijing, China",
             "population": "124 Households of diagnosed cases comprising 335 people",
@@ -37,24 +41,25 @@
 
         },
         {
-            "id":"study_5",
-            "source": "Payne et al",
-            "location": "USS Theodore Roosevelt, Guam",
-            "population": "383 US Navy service members",
-            "intervention":"Self-reported mask wearing",
-            "outcome":"Mask wearing reduced risk of infection by 70%"      
-
-        },
-        {
-            "id": "study_6",
+            "id": "study_5",
+            "box": "box5Visible",
             "source": "Doung-ngern et al",
             "location": "Bangkok, Thailand",
             "population": "839 Close contacts of 211 index cases",
             "intervention":"Self reported mask wearing by contact at time of high-risk exposure to case",
             "outcome":"Always having used a mask reduced infection risk by 77%"      
 
-        }
+        },
+        {
+            "id":"study_6",
+            "box": "box6Visible",
+            "source": "Payne et al",
+            "location": "USS Theodore Roosevelt, Guam",
+            "population": "383 US Navy service members",
+            "intervention":"Self-reported mask wearing",
+            "outcome":"Mask wearing reduced risk of infection by 70%"      
 
+        }
     ]
 
 }
