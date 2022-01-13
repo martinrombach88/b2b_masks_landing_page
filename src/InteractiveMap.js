@@ -24,48 +24,46 @@ const InteractiveMap = () => {
        
        //Figure out what to pass as a parameter to fire properly.
        const btnBoxChange = (studyNumber) => {
-            const bvArray = [setBox1Visible, box2Visible, box3Visible, box4Visible, box5Visible, box6Visible];
-            const btnArray = [btn1Visible, btn2Visible, btn3Visible, btn4Visible, btn5Visible, btn6Visible];
 
-            if (studyNumber == 'study_1') {
+            if (studyNumber === 'study_1') {
                 setBox1Visible(true);
                 setBtn1Visible(false);
-            } else if (studyNumber == 'study_1_hide') {
+            } else if (studyNumber === 'study_1_hide') {
                 setBox1Visible(false);
                 setBtn1Visible(true);
             }
-            if (studyNumber == 'study_2') {
+            if (studyNumber === 'study_2') {
                 setBox2Visible(true);
                 setBtn2Visible(false);
-            } else if (studyNumber == 'study_2_hide') {
+            } else if (studyNumber === 'study_2_hide') {
                 setBox2Visible(false);
                 setBtn2Visible(true);
             }
-            if (studyNumber == 'study_3') {
+            if (studyNumber === 'study_3') {
                 setBox3Visible(true);
                 setBtn3Visible(false);
-            } else if (studyNumber == 'study_3_hide') {
+            } else if (studyNumber === 'study_3_hide') {
                 setBox3Visible(false);
                 setBtn3Visible(true);
             }
-            if (studyNumber == 'study_4') {
+            if (studyNumber === 'study_4') {
                 setBox4Visible(true);
                 setBtn4Visible(false);
-            } else if (studyNumber == 'study_4_hide') {
+            } else if (studyNumber === 'study_4_hide') {
                 setBox4Visible(false);
                 setBtn4Visible(true);
             }
-            if (studyNumber == 'study_5') {
+            if (studyNumber === 'study_5') {
                 setBox5Visible(true);
                 setBtn5Visible(false);
-            } else if (studyNumber == 'study_5_hide') {
+            } else if (studyNumber === 'study_5_hide') {
                 setBox5Visible(false);
                 setBtn5Visible(true);
             }
-            if (studyNumber == 'study_6') {
+            if (studyNumber === 'study_6') {
                 setBox6Visible(true);
                 setBtn6Visible(false);
-            } else if (studyNumber == 'study_6_hide') {
+            } else if (studyNumber === 'study_6_hide') {
                 setBox6Visible(false);
                 setBtn6Visible(true);
             }
@@ -77,7 +75,7 @@ const InteractiveMap = () => {
                 <div className={`mapStudy ${eval(p.box) ? "" : "hidden"}`} key={p.id} id={p.id}>
                     <table>
                         <tbody>
-                        <tr><td>Location: {p.location}</td></tr>
+                        <tr><td>Study Location: {p.location}</td></tr>
                         <tr><td>Source: {p.source}</td></tr>
                         <tr><td>Population studied: {p.population}</td></tr>
                         <tr><td>Intervention: {p.intervention}</td></tr>
@@ -96,12 +94,13 @@ const InteractiveMap = () => {
     
         return ( 
             <div id="mapContainer">
+                <div id="mapOverlay"></div>
                 <div id="mapTopBar">
                 <h1>See the impact of masks in Global Studies</h1>
     
                 <h3>The Effect of Mask Wearing on SARS-CoV-2 Infection Risk</h3>
                 </div>
-                <img src={worldMap} alt="world map" id="worldMap"/>
+                <img src={worldMap} alt="world map"/>
                 <button id="study_1_btn" className={`mapButton ${btn1Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_1')}>Canada</button>
 
                 <button id="study_2_btn" className={`mapButton ${btn2Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_2')}>USA</button> 
@@ -116,7 +115,7 @@ const InteractiveMap = () => {
                 
                 <div className="credit">
                 <a href="https://jamanetwork.com/journals/jama/fullarticle/2776536">Source: Jama Network </a>
-                <a  href="https://commons.wikimedia.org/w/index.php?curid=4121338">Map art from Wikipedia Artist</a>    
+                <a  href="https://www.pngwing.com/en/free-png-zahef">Map from PNGWing</a>    
                 </div>
             </div>
         )

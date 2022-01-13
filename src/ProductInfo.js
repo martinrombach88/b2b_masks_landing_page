@@ -18,7 +18,6 @@ const ProductInfo = () => {
 
                 <div id='infoCards'>
                         {
-                         
                             infoCards.map((p)=>{
                             let image = '';
                             if (p.id === 1) image = prevCovidPic;

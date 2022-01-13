@@ -145,7 +145,7 @@ body {
 
 .infoCardDiv {
   width:40%;
-  font-size:1.2em;
+  font-size:1.0em;
   display:flex;
   flex-direction:column;
   align-items: center;
@@ -159,12 +159,19 @@ body {
 }
 
 /* ~~~~~~~~~~~~~~~~ INTERACTIVE MAP / SOCIAL PROOF ~~~~~~~~~~~~~~~~ */
+#mapOverlay {
+  background: linear-gradient(to right, #ce09ad, #ece91b);
+  opacity: 0.4;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
 #mapContainer {
   display:flex;
   position:relative;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(to bottom, rgb(158, 158, 226), rgb(38, 101, 218));
   color:white;
   font-size:0.8em;
 }
@@ -176,6 +183,7 @@ body {
   display:flex;
   flex-direction: column;
   align-items: center;
+  z-index:999;
 }
 
 .credit {
@@ -183,13 +191,10 @@ body {
   display:flex;
   justify-content: flex-end;
   padding-bottom:10px;
+  z-index:999;
 }
 .credit a{
   padding-right:10px
-}
-
-#worldMap {
-  width:90%;
 }
 
 .mapButton {
@@ -220,68 +225,69 @@ body {
   background-color:white;
   color:black;
   width:20%;
+  border:black 3px solid;
   border-radius:8px;
   padding:5px;
 }
 
 #study_1{
   position:absolute;
-  top:20%;
-  left:10%;
+  top:34%;
+  left:18%;
 }
 
 #study_1_btn {
   position:absolute;
-  top:30%;
-  left:15%;
+  top:34%;
+  left:18%;
 }
 
 #study_2{
   position:absolute;
-  top: 40%;
-  left:5%;
+  top: 45%;
+  left:20%;
 }  
 
 #study_2_btn {
   position:absolute;
-  top: 40%;
-  left:14%;
+  top: 45%;
+  left:20%;
 }
 
 #study_3{
   position:absolute;
-  top:28%;
-  left:32%;
+  top:44%;
+  left:45%;
 } 
 
 #study_3_btn {
   position:absolute;
-  top:36%;
-  left:42%;
+  top:44%;
+  left:45%;
 }
 
 #study_4{
   position:absolute;
-  top:19%;
-  right:25%;
+  top:35%;
+  right:30%;
 }
 
 #study_4_btn {
   position:absolute;
-  top:27%;
-  right:32%;
+  top:35%;
+  right:30%;
 }
 
 
 #study_5{
   position:absolute;
-  top:41%;
-  right:24%;
+  top:48%;
+  right:25%;
 } 
 
 #study_5_btn {
   position:absolute;
-  top:50%;
+  top:58%;
   right:25%;
 }
 
@@ -295,4 +301,45 @@ body {
   position:absolute;
   top:55%;
   right:15%;
+}
+
+/* ~~~~~~~~~~~~~~~~ CONTACT FORM / CALL TO ACTION ~~~~~~~~~~~~~~~~ */
+
+#contactHeader {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+#contactContainer{
+  display:flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+#companyInfo {
+  display:flex;
+}
+
+#contactForm{
+  border:black 2px thick;
+  display:flex;
+  flex-direction: column;
+  width:50%;
+}
+
+.formDiv {
+  padding:5px;
+  display:flex;
+  justify-content: space-around;
+}
+
+.formField {
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+}
+
+.formField label{
+  padding-bottom:5px;
 }
