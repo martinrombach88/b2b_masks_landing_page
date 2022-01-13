@@ -6,8 +6,8 @@ const infoCards = maskStudies.infoList;
 
 const InteractiveMap = () => {
     
-       const [boxVisible, setBoxVisible ] = useState(false);
-       const [btnVisible, setBtnVisible] = useState(true);
+       const [boxVisible, setBoxVisible ] = useState(true);
+       const [btnVisible, setBtnVisible] = useState(false);
  
         const cards = infoCards.map((p)=>{
             return(
