@@ -3,6 +3,7 @@
         {
             "id": "study_1",
             "box": "box1Visible",
+            "hideBox": "study_1_hide",
             "source": "Karaivanov et al",
             "location": "Canada",
             "population": "Country population",
@@ -13,6 +14,7 @@
         {
             "id": "study_2",
             "box": "box2Visible",
+            "hideBox": "study_2_hide",
             "source": "Wang X et al",
             "location": "Boston, Massachusetts, USA",
             "population": "9850 Health care workers",
@@ -23,6 +25,7 @@
         {
             "id": "study_3",
             "box": "box3Visible",
+            "hideBox": "study_3_hide",
             "source": "Mitze et al",
             "location": "Jena, Germany",
             "population": "City population aged 15+",
@@ -33,6 +36,7 @@
         {
             "id":"study_4",
             "box": "box4Visible",
+            "hideBox": "study_4_hide",
             "source": "Wang Y et al",
             "location": "Households in Beijing, China",
             "population": "124 Households of diagnosed cases comprising 335 people",
@@ -43,6 +47,7 @@
         {
             "id": "study_5",
             "box": "box5Visible",
+            "hideBox": "study_5_hide",
             "source": "Doung-ngern et al",
             "location": "Bangkok, Thailand",
             "population": "839 Close contacts of 211 index cases",
@@ -53,6 +58,7 @@
         {
             "id":"study_6",
             "box": "box6Visible",
+            "hideBox": "study_6_hide",
             "source": "Payne et al",
             "location": "USS Theodore Roosevelt, Guam",
             "population": "383 US Navy service members",
