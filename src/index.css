@@ -5,6 +5,7 @@
 
 
 body {
+  padding:9;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -310,14 +311,15 @@ body {
 
 #contact {
  background-image: url("images/factorypic3.jpg");
- background-position: stretch;
  background-size:cover;
  display:flex;
  flex-direction: column;
+ padding-bottom:2%;
+ margin:0;
 }
 
 #contactOverlay {
-  height:96%;
+  height:102%;
   width:100%;
 }
 
@@ -425,7 +427,7 @@ body {
 }
 
 #meetingInput div {
-  margin:2%;
+  margin:3%;
 }
 
 #contactLogoDiv {
