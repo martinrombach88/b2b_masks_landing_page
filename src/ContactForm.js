@@ -1,6 +1,13 @@
 
 
 const ContactForm = () => {
+
+  const formCancel = (e) => {
+      e.preventDefault();
+      alert("This button would send all the information to our database!");
+      
+  }
+
   return ( 
     <div id='contactForm' className="contactBorder">
         
@@ -62,7 +69,7 @@ const ContactForm = () => {
 
             <div className="formDiv">
               <div className="formField">
-                  <input type="submit" name="submit" value="Submit"/>
+                  <input onClick={formCancel} type="submit" name="submit" value="Submit"/>
               </div>
             </div>
         </form>

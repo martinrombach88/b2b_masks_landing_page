@@ -5,8 +5,12 @@ import ContactForm from './ContactForm'
 import maskLogo from './images/maskLogo.png';
 import phoneIcon from './images/phone.jpg';
 
-
 function App() {
+
+  const chatStart = () => {
+    alert("This button will take you to the chat app!")
+  }
+
   return (
     <div className="App">
         <HeroImage/>
@@ -24,7 +28,7 @@ function App() {
             
             <div id="contactContainer">             
                 <ContactForm />
-                
+
                 <div id="optionDiv">
                   
                   <div className="contactOption contactBorder">
@@ -34,7 +38,7 @@ function App() {
 
                   <div className="contactOption contactBorder">
                     <h3>Chat with our sales team</h3>
-                    <button>Begin Chat</button>
+                    <button onClick={chatStart}>Begin Chat</button>
                   </div>
 
                 </div>
