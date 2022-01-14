@@ -2,14 +2,16 @@
 
 const ContactForm = () => {
   return ( 
-    <div id='contactForm'>
-        <div className="formDiv">
-            <p>To schedule a meeting with the Cleankit Sales Team, fill in the form
-            and click 'Submit'. You will receive a confirmation email soon after.</p>
+    <div id='contactForm' className="contactBorder">
+        
+        <div id="contactBooking">
+        <h2>Book a Meeting</h2>
+          <p>To schedule a meeting with the Cleankit Sales Team, fill in the form
+          and click 'Submit'. You will receive a confirmation email soon after.</p>
         </div>
 
-          <form>
-          <div className="formDiv">
+        <form>
+            <div className="formDiv">
               <div className="formField">
                 <label htmlFor="firstName">First Name</label>
                 <input type="text" name="firstName"/>
@@ -32,7 +34,7 @@ const ContactForm = () => {
                 <input type="email" name="email"/>
               </div>
             </div>
-            
+          
             <div className="formDiv">
               <div className="formField">
                 <label htmlFor="company">Company Name</label>
@@ -43,14 +45,25 @@ const ContactForm = () => {
                 <label htmlFor="website">Website</label>
                 <input type="url" name="website"/>
               </div>
+            </div> 
+
+            <div className="formDiv" id="meetingInput">
+              <div className="formField">
+                  <label htmlFor="date">Meeting Date</label>
+                  <input type="date" name="date"/>
+              </div>
+
+              <div className="formField">
+                  <label htmlFor="time">Meeting Time</label>
+                  <input type="time" name="time"/>
+              </div>
+
             </div>
 
             <div className="formDiv">
               <div className="formField">
-                <label htmlFor="date">Meeting Date</label>
-                <input type="date" name="date"/>
+                  <input type="submit" name="submit" value="Submit"/>
               </div>
-
             </div>
         </form>
 

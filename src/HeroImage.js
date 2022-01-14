@@ -3,9 +3,9 @@ import maskLogo from './images/maskLogo.png';
 const HeroImage = () => {
     return ( 
         <div id="firstContainer" >
-            <div id="firstOverlay"></div>
+            <div className="overlay" id="firstOverlay"></div>
             <div id="topBar">            
-                <div id="logoDiv"><img src={maskLogo} alt="logo" id="logo"/>
+                <div className="logoDiv"><img src={maskLogo} alt="logo" id="logo"/>
                 <h2>Cleankit</h2></div>
                 <p>Korea based factory accepting local and international orders</p>
             </div>
