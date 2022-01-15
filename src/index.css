@@ -246,25 +246,25 @@ body {
 #study_1{
   position:absolute;
   top:34%;
-  left:18%;
+  left:11%;
 }
 
 #study_1_btn {
   position:absolute;
   top:34%;
-  left:18%;
+  left:11%;
 }
 
 #study_2{
   position:absolute;
   top: 45%;
-  left:20%;
+  left:13%;
 }  
 
 #study_2_btn {
   position:absolute;
   top: 45%;
-  left:20%;
+  left:13%;
 }
 
 #study_3{
@@ -281,39 +281,39 @@ body {
 
 #study_4{
   position:absolute;
-  top:35%;
-  right:30%;
+  top:30%;
+  right:22%;
 }
 
 #study_4_btn {
   position:absolute;
-  top:35%;
-  right:30%;
+  top:30%;
+  right:22%;
 }
 
 
 #study_5{
   position:absolute;
   top:48%;
-  right:25%;
+  right:16%;
 } 
 
 #study_5_btn {
   position:absolute;
   top:58%;
-  right:25%;
+  right:16%;
 }
 
 #study_6{
   position:absolute;
-  top:45%;
-  right:2%;
+  top:62%;
+  right:3%;
 }
 
 #study_6_btn {
   position:absolute;
-  top:55%;
-  right:15%;
+  top:62%;
+  right:3%;
 }
 
 /* ~~~~~~~~~~~~~~~~ CONTACT FORM / CALL TO ACTION ~~~~~~~~~~~~~~~~ */
