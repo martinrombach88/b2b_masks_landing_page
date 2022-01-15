@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/b2b_masks_landing_page/static/css/main.2809860a.css",
+    "main.js": "/b2b_masks_landing_page/static/js/main.9d0a5d30.js",
+    "static/media/worldMap.png": "/b2b_masks_landing_page/static/media/worldMap.cfbdbb6d28358be445d2.png",
+    "static/media/worldMap3.png": "/b2b_masks_landing_page/static/media/worldMap3.e1295703ea1f90b00fc2.png",
+    "static/media/worldMap2.png": "/b2b_masks_landing_page/static/media/worldMap2.091cb60fd1d24eb697de.png",
+    "static/media/factorypic3.jpg": "/b2b_masks_landing_page/static/media/factorypic3.c151bac97ca13626c5c4.jpg",
+    "static/media/mask.jpg": "/b2b_masks_landing_page/static/media/mask.158b26ac24765695c4f5.jpg",
+    "static/media/manProdPhoto3.jpg": "/b2b_masks_landing_page/static/media/manProdPhoto3.8e334255a8b2e91ac9ec.jpg",
+    "static/media/prevCovidPic.png": "/b2b_masks_landing_page/static/media/prevCovidPic.e7953165b3c273532372.png",
+    "static/media/costPic.png": "/b2b_masks_landing_page/static/media/costPic.567ab3e916453469c3fe.png",
+    "static/media/maskLogo.png": "/b2b_masks_landing_page/static/media/maskLogo.08f99b786a720f8e25ac.png",
+    "static/media/prodCapaPic.jpg": "/b2b_masks_landing_page/static/media/prodCapaPic.8e4bf26d25f33ddcd77c.jpg",
+    "static/media/highQualityPic.png": "/b2b_masks_landing_page/static/media/highQualityPic.b5b491aae8620557933e.png",
+    "index.html": "/b2b_masks_landing_page/index.html",
+    "main.2809860a.css.map": "/b2b_masks_landing_page/static/css/main.2809860a.css.map",
+    "main.9d0a5d30.js.map": "/b2b_masks_landing_page/static/js/main.9d0a5d30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2809860a.css",
+    "static/js/main.9d0a5d30.js"
+  ]
+}
