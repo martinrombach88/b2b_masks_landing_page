@@ -1,14 +1,12 @@
 import worldMap from './images/worldMap.png';
+import worldMap2 from './images/worldMap2.png';
+import worldMap3 from './images/worldMap3.png';
 import maskStudies from './maskStudies.json';
 import {useState} from 'react';
 
 const infoCards = maskStudies.infoList;
 
 const InteractiveMap = () => {
-    
-    //    const [boxVisible, setBoxVisible ] = useState(false);
-    //    const [btnVisible, setBtnVisible] = useState(true);
-
        const [box1Visible, setBox1Visible] = useState(false);
        const [box2Visible, setBox2Visible] = useState(false);
        const [box3Visible, setBox3Visible] = useState(false);
@@ -100,7 +98,9 @@ const InteractiveMap = () => {
     
                 <h3>The Effect of Mask Wearing on SARS-CoV-2 Infection Risk</h3>
                 </div>
-                <img src={worldMap} alt="world map"/>
+                <img id="worldMap" src={worldMap} alt="world map"/> 
+                <img id="mediaQueriesWorldMap" src={worldMap2} alt="world map" />
+                <img id="mediaQueriesWorldMap2" src={worldMap3} alt="world map" />
                 <button id="study_1_btn" className={`mapButton ${btn1Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_1')}>Canada</button>
 
                 <button id="study_2_btn" className={`mapButton ${btn2Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_2')}>USA</button> 
