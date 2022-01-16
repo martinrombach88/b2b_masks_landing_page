@@ -123,6 +123,7 @@ body {
     flex-direction: column;
     padding:2%;
     justify-content:center;
+    /* height:100vh; */
 }
 
 .maskDiv {
@@ -563,6 +564,7 @@ body {
   #contactContainer {
     flex-direction: column;
     align-items:center;
+    justify-content: flex-start;
   }
 
   #contactBooking p {
@@ -578,16 +580,15 @@ body {
     width:80%;
   }
 
-  #optionDiv {
-    display:none;
+   #optionDiv {
+    display:flex;
+    width:60%;
   }
 
-  #chat {
-    display:none;
-  }
-
-  #phone {
-    display:none;
+  .formField input[type="submit"] {
+    margin-bottom: 10%;
+    padding-right: 45%;
+    padding-left: 45%;
   }
 
   #worldMap {
