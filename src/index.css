@@ -56,8 +56,9 @@ body {
   flex-direction:column;
   height:100vh;
   background-image: url(images/manProdPhoto3.jpg);
-  background-size: cover;
+  background-size:cover;
   background-position-y: 20%;
+  background-position-x: 50%;
   
 }
 
@@ -323,12 +324,11 @@ body {
  background-size:cover;
  display:flex;
  flex-direction: column;
- margin:0;
- padding-bottom:2%;
+ height:100vh;
 }
 
 #contactOverlay {
-  height:102%;
+  height:100vh;
   width:100%;
 }
 
@@ -405,7 +405,7 @@ body {
 .formField {
   display:flex;
   flex-direction:column;
-  text-align:center;
+  align-items:center;
 }
 
 .formField label{
@@ -453,647 +453,186 @@ body {
 
 /* ~~~~~~~~~~~~~~~~ MEDIA QUERIES  ~~~~~~~~~~~~~~~~ */
 
-/* Portrait Phones (iPhone SE included) */
+/* Small Devices */
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+  and (min-device-width: 20em) {
 
-#firstText {
-  padding-top:20%;
-}
-
-#firstText h1, h1 {
-  font-size:1.5em;
-  text-align: center;
-}
-
-#firstText h2, h3 {
-  font-size:1.1em;
-}
-
-#logoDiv {
-  width:30%;
-  display:flex;
-  font-size:0.6em;
-}
-
-#topBar {
-  margin-top:15%;
-  text-align:center;
-  flex-direction:column;
-  align-items:center;
-}
-
-#firstContainer {
-  background-position-x: -270px;
-}
-
-.infoCardDiv{
-  font-size:0.8em;
-}
-
-#maskPic {
-  width:80%;
-}
-
-#study_1_btn, #study_2_btn, #study_3_btn, #study_4_btn, #study_5_btn, #study_6_btn, #study_1 button, #study_2 button, #study_3 button, #study_4 button  {
-  display:none;
-}
-
-#study_1 {
-  display:flex;
-  width:80%;
-  top: 14%;
-  left:8%;
-}
-
-#study_2 {
-  display:flex;
-  width:80%;
-  top: 32%;
-  left:8%;
-}
-
-#study_3 {
-  display:flex;
-  width:80%;
-  top: 52%;
-  left:8%;
-}
-
-#study_4 {
-  display:flex;
-  width:80%;
-  top: 72%;
-  left:8%;
-}
-
-#contactLogoDiv {
-  display:none;
-}
-
-#contactHeader {
-  padding-right:0;
-}
-
-#contactContainer {
-  flex-direction: column;
-  align-items:center;
-}
-
-#contactForm {
-  width:90%;
-}
-
-#chat {
-  display:none;
-}
-
-#phone {
-  display:none;
-}
-
-#worldMap {
-  display:none;
-}
-
-#mediaQueriesWorldMap {
-  display:flex;
-  width:95%;
-  padding-right:20px;
-}
-
-#contactHeader {
-  padding-bottom:5%;
-  background:none;
-}
-
-} 
-
-/*iPhone SE Landscape */
-@media only screen 
-  and (min-device-width: 667px) 
-  and (max-device-width: 896px) 
-  and (orientation: landscape) { 
-    #contactOverlay {
-      height:110%;
-    }
-    #contactHeader {
-      padding-right:0;
-    }
-
-    #contactForm {
-      font-size: 0.6em;
-      width:80%;
-      padding:0;
-      margin:0;
-    }
-
-    #optionDiv {
-      font-size:0.8em;
-      justify-content: center;
-    }
-
-    .formDiv {
-      padding:0;
-    }
-  }
-
-/* iPhone XR Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 414px) 
-  and (orientation: portrait) { 
-
-  #firstContainer {
-      background-position-x: -450px;
-  }
-} 
-
-/* Smartphones Landscape */
-@media only screen 
-  and (min-device-width: 667px) 
-  and (max-device-width: 896px) 
-  and (orientation: landscape) { 
-    #contactForm {
-      margin:1%;
-      width:auto;
-      height:100%;
-    }
-
-    #contact {
-      height:105vh;
-    }
-
-    #logo {
-      height:auto;
-      width:12%;
-    }
-
-    #contactLogoDiv img {
-      height:auto;
-    }
-
-    #firstText h1 {
-      font-size:2.2em;
-    }
-  }
-/* iPhone 12 Portrait */
-@media only screen 
-  and (min-device-width: 390px) 
-  and (max-device-width: 390px) 
-  and (orientation: portrait) { 
-
-  #firstContainer {
-      background-position-x: -420px;
-  }
-} 
-
-/*
-/* Smartphones Landscape */
-@media only screen 
-  and (min-device-width: 914px) 
-  and (max-device-width: 915px) 
-  and (orientation: landscape) { 
-    #contactForm {
-      width: 60%;
-      padding:0;
-      margin:0;
-      font-size:0.7em;
-    }
-
-    #contactForm p {
-      padding-left:10px;
-      padding-right:10px;
-    }
-
-    #contact {
-      height:100vh;
-    }
-
-    #contactOverlay {
-      height:105%;
-    }
-
-    #logo {
-      height:auto;
-      width:12%;
-    }
-
-    .formDiv, #contactBooking {
-      padding:0;
-    }
-    #contactLogoDiv img {
-      height:auto;
-    }
-
-    #firstText h1 {
-      font-size:2.2em;
-    }
-  }
-
-/* Pixel 5 Portrait */
-@media only screen 
-  and (min-device-width: 393px) 
-  and (max-device-width: 393px) 
-  and (orientation: portrait) { 
-
-  #firstContainer {
-      background-position-x: -400px;
-  }
-} 
-
-/* Samsung S8 Portrait */
-@media only screen 
-  and (min-device-width: 360px) 
-  and (max-device-width: 360px) 
-  and (orientation: portrait) { 
-
-  #firstContainer {
-      background-position-x: -390px;
-  }
-} 
-
-/* Samsung S8 Portrait */
-@media only screen 
-  and (min-device-width: 412px) 
-  and (max-device-width: 412px) 
-  and (orientation: portrait) { 
-
-  #firstContainer {
-      background-position-x: -450px;
-  }
-} 
-
-/* iPad Air/Mini/  */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 912px) 
-  and (orientation: portrait) { 
-
-  #firstContainer {
-      background-position-x: -450px;
-  }
+  /* Front Page */
 
   #firstText {
-    margin-top:35%;
+    padding-top:20%;
+  }
+
+  #firstText h1, h1 {
+    font-size:1.5em;
+    text-align: center;
+  }
+
+  #firstText h2, #firstText h3, #firstText h4 {
+    font-size:1.1em;
+  }
+
+  #logoDiv {
+    width:30%;
     display:flex;
+    font-size:0.6em;
   }
 
   #topBar {
-    height:auto;
+    margin-top:15%;
+    text-align:center;
+    flex-direction:column;
+    align-items:center;
   }
 
-  #study_1{
-    position:absolute;
-    top:34%;
-    left:12%;
+  /*Product Info*/
+
+  #productContainer h1 {
+    font-size:1.5em;
   }
 
-  #study_1_btn {
-    position:absolute;
-    top:34%;
-    left:12%;
+  #productContainer p, #productContainer h3 {
+    font-size:1em;
+    text-align:center;
   }
 
-  #study_2{
-    position:absolute;
-    top: 45%;
-    left:6%;
-  }  
-
-  #study_2_btn {
-    position:absolute;
-    top: 45%;
-    left:6%;
+  .infoCardDiv{
+    font-size:0.8em;
   }
 
-  #study_3{
-    position:absolute;
-    top:44%;
-    left:41%;
-  } 
-
-  #study_3_btn {
-    position:absolute;
-    top:44%;
-    left:41%;
+  #maskPic {
+    width:50%;
   }
 
-  #study_4{
-    position:absolute;
-    top:15%;
-    right:20%;
+  .infoIcon {
+    width:50px;
+    height:50px;
   }
 
-  #study_4_btn {
-    position:absolute;
-    top:35%;
-    right:30%;
+  #study_1_btn, #study_2_btn, #study_3_btn, #study_4_btn, #study_5_btn, #study_6_btn, #study_1 button, #study_2 button, #study_3 button, #study_4 button  {
+    display:none;
   }
 
-
-  #study_5{
-    position:absolute;
-    top:58%;
-    right:15%;
-  } 
-
-  #study_5_btn {
-    position:absolute;
-    top:58%;
-    right:15%;
+  #study_1 {
+    display:flex;
+    width:80%;
+    top: 14%;
+    left:8%;
   }
 
-  #study_6{
-    position:absolute;
-    top:45%;
-    right:2%;
+  #study_2 {
+    display:flex;
+    width:80%;
+    top: 32%;
+    left:8%;
   }
 
-  #study_6_btn {
-    position:absolute;
-    top:60%;
-    right:4%;
+  #study_3 {
+    display:flex;
+    width:80%;
+    top: 52%;
+    left:8%;
+  }
+
+  #study_4 {
+    display:flex;
+    width:80%;
+    top: 72%;
+    left:8%;
+  }
+
+  /* Contact Form */
+
+  #contact {
+    height:100vh;
+  }
+
+  #contactOverlay {
+    height:100vh;
+  }
+
+  #contactLogoDiv {
+    display:none;
+  }
+
+  #contactHeader {
+    padding-right:0;
+    background:none;
+  }
+
+  #contactContainer {
+    flex-direction: column;
+    align-items:center;
+  }
+
+  #contactBooking p {
+    padding-left:2%;
+  }
+
+  #contactForm {
+    width:90%;
+    font-size: 0.8em;
+  }
+
+  #contactForm input[type="text"], #contactForm input[type="text"], #contactForm input[type="phone"], #contactForm input[type="email"],  #contactForm input[type="url"] {
+    width:80%;
+  }
+
+  #optionDiv {
+    display:none;
+  }
+
+  #chat {
+    display:none;
+  }
+
+  #phone {
+    display:none;
   }
 
   #worldMap {
     display:none;
   }
 
-  #mediaQueriesWorldMap2 {
+  #mediaQueriesWorldMap {
     display:flex;
-    width:98%;
-    padding-right:12px;
+    width:95%;
+    padding-right:20px;
   }
+} 
 
-  #contactForm {
-    width: 55%;
-    font-size: 0.8em;
-  } 
-
-  #contactHeader {
-    padding-right:0;
-    background:none;
-    padding-bottom:3%;
-  }
-}
-/* Surface Pro Portrait */
 @media only screen 
-  and (min-device-width: 912px) 
-  and (max-device-width: 912px) 
-  and (orientation: portrait) { 
-
-    #study_6{
-      position:absolute;
-      top:45%;
-      right:6%;
+  and (min-device-width: 481px) {
+  
+    #firstText {
+      padding-top:4%;
     }
   
-    #study_6_btn {
-      position:absolute;
-      top:63%;
-      right:6%;
-    }
-  }
-
-/* Galaxy Fold Portrait (single screen) */
-@media only screen 
-  and (min-device-width: 280px) 
-  and (max-device-width: 280px) 
-  and (orientation: portrait) { 
-    
-   #firstContainer {
-      background-position-x: -345px;
-  } 
-
-    #firstText {
-      padding-top:20%;
-    }
-    
     #firstText h1, h1 {
-      font-size:1.5em;
+      font-size:2.2em;
       text-align: center;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
     }
-    
-    #firstText h2, h3 {
+  
+    #firstText h2, #firstText h3, #firstText h4 {
       font-size:1.1em;
     }
-    
+  
     #logoDiv {
       width:30%;
       display:flex;
       font-size:0.6em;
     }
-    
+
+    #topBar p{
+      font-size:0.8em;
+    }
+  
     #topBar {
-      margin-top:15%;
+      margin-top:0%;
       text-align:center;
-      flex-direction:column;
+      flex-direction:row;
       align-items:center;
     }
-    
-    
-    .infoCardDiv{
-      font-size:0.8em;
-    }
-    
-    #maskPic {
-      width:80%;
-    }
-    
-    .mapStudy {
-      font-size:0.8em;
-    }
-
-    #study_1_btn, #study_2_btn, #study_3_btn, #study_4_btn, #study_5_btn, #study_6_btn, #study_1 button, #study_2 button, #study_3 button, #study_4 button  {
-      display:none;
-    }
-    
-    #study_1 {
-      display:flex;
-      width:80%;
-      top: 19%;
-      left:8%;
-    }
-    
-    #study_2 {
-      display:flex;
-      width:80%;
-      top: 36%;
-      left:8%;
-    }
-    
-    #study_3 {
-      display:flex;
-      width:80%;
-      top: 56%;
-      left:8%;
-    }
-    
-    #study_4 {
-      display:flex;
-      width:80%;
-      top: 74%;
-      left:8%;
-    }
-    
-    #contactLogoDiv {
-      display:none;
-    }
-    
-    #contactHeader {
-      padding-right:0;
-    }
-    
-    #contactContainer {
-      flex-direction: column;
-      align-items:center;
-    }
-    
-    #contactForm {
-      margin-bottom:40%;
-    }
-    
-    #chat {
-      display:none;
-    }
-    
-    #phone {
-      display:none;
-    }
-    
-    #worldMap {
-      display:none;
-    }
-    
-    #mediaQueriesWorldMap {
-      display:flex;
-      width:95%;
-      padding-right:20px;
-    }
-    
-    #contactHeader {
-      padding-bottom:5%;
-      background:none;
-    }
-
-    .formDiv, #contactBooking {
-      font-size: 0.7em;
-      margin:0;
-    }
-
-    .formField {
-      width: 100px;
-    }
-
-    #contactBooking h2 {
-      margin:0;
-    }
-
-  }
-
-  /* Galaxy Fold - Dual Screens */
-  @media only screen 
-  and (min-device-width: 1114px) 
-  and (max-device-width: 1114px) 
-  and (orientation: landscape) { 
-
-    #firstText, #firstButton {
-      align-self:flex-start;
-      
-    }
-
-    #firstText {
-      font-size: 0.7em;
-    }
-
-    #topBar {
-      display:flex;
-      flex-direction: column;
-      margin-top: 5%;
-    }
-
-    #firstButton {
-      margin-left:32%;
-    }
-
-    .maskDiv {
-        align-items: flex-start;
-    }
-
-    .maskDiv h1{
-      font-size: 1.7em;
-    }
-
-    #maskPic {
-      margin-left:9%;
-    }
-
-    .infoCardDiv {
-      margin: 20px;
-    }
-
-    #mapTopBar {
-      align-items:flex-start;
-      padding-left:2%;
-    }
-
-    #study_3{
-      position:absolute;
-      top:44%;
-      left:25%;
-    } 
-  
-    #study_3_btn {
-      position:absolute;
-      top:44%;
-      left:40%;
-    }
-  
-    #study_4{
-      position:absolute;
-      top:15%;
-      right:24%;
-    }
-
-    #contactHeader {
-      justify-content: space-between;
-      padding-right:0;
-    }
-
-    #contactContainer {
-      justify-content:flex-start;
-    }
-
-    #contactForm {
-      margin-left:6%;
-    }
-
-    #optionDiv {
-      margin-left: 20%;
-    }
-  
-  }
-
-
-    /* Nest Hub */
-    @media only screen 
-    and (min-device-width: 1024px) 
-    and (max-device-width: 1024px) 
-    and (orientation: landscape) {
-      #contactForm {
-        margin:0;
-        padding:0;
-      }
-
-      #formDiv {
-        padding:0;
-      }
-
-      #topBar {
-        height:auto;
-      }
-    }
+}
