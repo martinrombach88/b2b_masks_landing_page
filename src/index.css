@@ -41,7 +41,7 @@ body {
 
 #logo{
   border-radius:50%;
-  width:50%;
+  width:15%;
 }
 
 .logoDiv {
@@ -477,6 +477,7 @@ body {
     width:30%;
     display:flex;
     font-size:0.6em;
+    justify-content: center;
   }
 
   #topBar {
@@ -610,14 +611,14 @@ body {
     }
   
     #firstText h1, h1 {
-      font-size:2.0em;
+      font-size:2.5em;
       text-align: center;
       margin-block-start: 0.67em;
       margin-block-end: 0.67em;
     }
   
     #firstText h2, #firstText h3, #firstText h4 {
-      font-size:1.1em;
+      font-size:2.0em;
     }
   
     #logoDiv {
