@@ -145,8 +145,8 @@ h1, h2, h3 {
 }
 
 #productContainer h1 {
+  padding-top:5%;
   font-size:4vh;
-  padding:10px;
   text-align:center;
   margin:0;
 }
@@ -157,6 +157,7 @@ h1, h2, h3 {
 }
 
 .maskDiv {
+    padding-top:5%;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -165,6 +166,7 @@ h1, h2, h3 {
   width:30vh;
 }
 .infoCardDiv {
+  padding-top: 5%;
   width:40%;
   font-size:100%;
   display:flex;
