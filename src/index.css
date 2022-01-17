@@ -139,10 +139,8 @@ h1, h2, h3 {
 /* ~~~~~~~~~~~~~~~~ PRODUCT INFO / BENEFITS ~~~~~~~~~~~~~~~~ */
 
 #productContainer {
-    display:flex;
-    flex-direction: column;
-    padding:2%;
-    justify-content:center;
+    height:100vh;
+    width:100vw;
 }
 
 #productContainer h1 {
@@ -160,11 +158,22 @@ h1, h2, h3 {
     flex-direction:column;
     align-items:center;
 }
-
 #maskPic {
-  width:30%;
+  width:40%;
+}
+.infoCardDiv {
+  width:40%;
+  font-size:0.8em;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  text-align:left;
+  margin:1%;
 }
 
+.infoCardDiv h3{
+  margin:1%;
+}
 #infoCards {
   display:flex;
   flex-direction: column;
@@ -180,15 +189,7 @@ h1, h2, h3 {
   padding:0;
 }
 
-.infoCardDiv {
-  width:40%;
-  font-size:0.8em;
-  display:flex;
-  flex-direction:column;
-  align-items: center;
-  text-align:left;
-  padding:10px;
-}
+
 
 .infoIcon {
   width:50px;

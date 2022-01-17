@@ -10,8 +10,9 @@ const infoCards = productInfo.infoList;
 const ProductInfo = () => { 
         return (
             <div id="productContainer">
+                <h1>Take care of your staff with the best KF60 masks</h1>
                 <div className="maskDiv">
-                    <h1>Take care of your staff with the best KF60 masks</h1>
+                    
                     <img src={maskPic} alt="mask" id='maskPic'/>  
                 </div>
             
