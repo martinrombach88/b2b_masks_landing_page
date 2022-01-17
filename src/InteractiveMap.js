@@ -83,6 +83,7 @@ const InteractiveMap = () => {
 
                     {/* Setting the state on the class is okay. Setting the button the box, not ok. */}
                     <div className="hideButton">
+                        <br />
                         <button onClick={() => btnBoxChange(p.hideBox)}>Hide</button>
                     </div>
                     {/* <button>Hide</button> */}

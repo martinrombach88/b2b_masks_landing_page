@@ -261,6 +261,7 @@ h1, h2, h3 {
 }
 
 .mapButton {
+  position:absolute;
   background-color:black;
   color:white;
   border-radius:8px;
@@ -282,7 +283,7 @@ h1, h2, h3 {
 }
 
 .hideButton button {
-  font-size:2.2vh;
+  font-size:3.4vh;
 }
 
 .hidden {
@@ -290,84 +291,73 @@ h1, h2, h3 {
 }
 
 .mapStudy {
+  position:absolute;
   background-color:white;
   color:black;
-  font-size: 2.4vh;
-  width:60%;
-  border:black 3px solid;
-  border-radius:8px;
-  padding:5px;
+  height: 44vh;
+  width:88%;
+  padding:5%;
+  top: 102%;
+  left:1%;
 }
 
 #study_1{
-  position:absolute;
-  top: 118%;
-  left:20%;
+  
+  font-size: 3.4vh;
 }
 
-#study_1_btn {
-  position:absolute;
+#study_1_btn { 
   top:34%;
   left:11%;
 }
 
 #study_2{
-  position:absolute;
-  top:106%;
-  left:20%;
+  font-size: 2.8vh;
+  
 }  
 
 #study_2_btn {
-  position:absolute;
   top: 50%;
   left:13%;
 }
 
 #study_3{
-  position:absolute;
-  top:108%;
-  left:20%;
+  font-size: 3vh;
+  
 } 
 
 #study_3_btn {
-  position:absolute;
   top:44%;
   left:45%;
 }
 
 #study_4{
-  position:absolute;
-  top:102%;
-  left:20%;
+  font-size: 2.8vh;
+  
 }
 
 #study_4_btn {
-  position:absolute;
   top:30%;
   right:22%;
 }
 
 
 #study_5{
-  position:absolute;
-  top:116%;
-  left:20%;
+  font-size: 3vh;
+  
 } 
 
 #study_5_btn {
-  position:absolute;
   top:58%;
   right:20%;
 }
 
 #study_6{
-  position:absolute;
-  top:114%;
-  left:20%;
+  font-size: 3vh;
+  
 }
 
 #study_6_btn {
-  position:absolute;
   top:62%;
   right:3%;
 }
