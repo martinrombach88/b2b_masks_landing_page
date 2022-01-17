@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/b2b_masks_landing_page/static/css/main.90485d19.css",
-    "main.js": "/b2b_masks_landing_page/static/js/main.32f61089.js",
+    "main.css": "/b2b_masks_landing_page/static/css/main.dd0dd4c8.css",
+    "main.js": "/b2b_masks_landing_page/static/js/main.5b924261.js",
     "static/media/worldMap.png": "/b2b_masks_landing_page/static/media/worldMap.cfbdbb6d28358be445d2.png",
     "static/media/worldMap3.png": "/b2b_masks_landing_page/static/media/worldMap3.e1295703ea1f90b00fc2.png",
     "static/media/worldMap2.png": "/b2b_masks_landing_page/static/media/worldMap2.091cb60fd1d24eb697de.png",
@@ -14,11 +14,11 @@
     "static/media/prodCapaPic.jpg": "/b2b_masks_landing_page/static/media/prodCapaPic.8e4bf26d25f33ddcd77c.jpg",
     "static/media/highQualityPic.png": "/b2b_masks_landing_page/static/media/highQualityPic.b5b491aae8620557933e.png",
     "index.html": "/b2b_masks_landing_page/index.html",
-    "main.90485d19.css.map": "/b2b_masks_landing_page/static/css/main.90485d19.css.map",
-    "main.32f61089.js.map": "/b2b_masks_landing_page/static/js/main.32f61089.js.map"
+    "main.dd0dd4c8.css.map": "/b2b_masks_landing_page/static/css/main.dd0dd4c8.css.map",
+    "main.5b924261.js.map": "/b2b_masks_landing_page/static/js/main.5b924261.js.map"
   },
   "entrypoints": [
-    "static/css/main.90485d19.css",
-    "static/js/main.32f61089.js"
+    "static/css/main.dd0dd4c8.css",
+    "static/js/main.5b924261.js"
   ]
 }
