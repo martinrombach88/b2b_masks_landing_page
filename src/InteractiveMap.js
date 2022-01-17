@@ -91,38 +91,37 @@ const InteractiveMap = () => {
         });
     
         return ( 
-            <div id="mapContainer">
-                
-                <div id="mapTopBar">
-                    <h1>See the impact of masks in Global Studies</h1>
-                    <h3>The Effect of Mask Wearing on SARS-CoV-2 Infection Risk</h3>
-                </div>
-                <div id="mapDiv">
-                    <div id="mapOverlay"></div>
-                    <img id="worldMap" src={worldMap} alt="world map"/> 
-                </div>
-                {/* <img id="mediaQueriesWorldMap" src={worldMap2} alt="world map" />
-                <img id="mediaQueriesWorldMap2" src={worldMap3} alt="world map" /> */}
-                <button id="study_1_btn" className={`mapButton ${btn1Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_1')}>Canada</button>
+                <div id="mapContainer">
+                    
 
-                <button id="study_2_btn" className={`mapButton ${btn2Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_2')}>USA</button> 
-                <button id="study_3_btn" className={`mapButton ${btn3Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_3')}>Germany</button>
-                <button id="study_4_btn" className={`mapButton ${btn4Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_4')}>China</button>
-                <button id="study_5_btn" className={`mapButton ${btn5Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_5')}>Thailand</button>
-                <button id="study_6_btn" className={`mapButton ${btn6Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_6')}>Guam</button>
+                    <div id="mapTopBar">
+                        <h1>See the impact of masks in Global Studies</h1>
+                        <h3>The Effect of Mask Wearing on SARS-CoV-2 Infection Risk</h3>
+                    </div>
+                        <div id="mapOverlay"></div>
+                        <img id="worldMap" src={worldMap} alt="world map"/> 
+                        <div className="credit">
+                            <a href="https://jamanetwork.com/journals/jama/fullarticle/2776536">Source: Jama Network </a>
+                            <a  href="https://www.pngwing.com/en/free-png-zahef">Map from PNGWing</a>
+                        </div>
+                            
+                    {/* <img id="mediaQueriesWorldMap" src={worldMap2} alt="world map" />
+                    <img id="mediaQueriesWorldMap2" src={worldMap3} alt="world map" /> */}
+                    <button id="study_1_btn" className={`mapButton ${btn1Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_1')}>Canada</button>
 
-                <div className="cards" >
-                    {cards}
-                </div>
-                
-                
-                <div id="bottomSection">
-                    <div className="credit">
-                    <a href="https://jamanetwork.com/journals/jama/fullarticle/2776536">Source: Jama Network </a>
-                    <a  href="https://www.pngwing.com/en/free-png-zahef">Map from PNGWing</a>    
+                    <button id="study_2_btn" className={`mapButton ${btn2Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_2')}>USA</button> 
+                    <button id="study_3_btn" className={`mapButton ${btn3Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_3')}>Germany</button>
+                    <button id="study_4_btn" className={`mapButton ${btn4Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_4')}>China</button>
+                    <button id="study_5_btn" className={`mapButton ${btn5Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_5')}>Thailand</button>
+                    <button id="study_6_btn" className={`mapButton ${btn6Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_6')}>Guam</button>
+
+                    <div className="cards" >
+                        {cards}
                     </div>
                 </div>
-            </div>
+                
+                
+
         )
     
 };

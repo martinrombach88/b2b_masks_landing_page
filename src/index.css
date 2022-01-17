@@ -152,7 +152,7 @@ h1, h2, h3 {
 }
 
 #productContainer h3 {
-  font-size:2.5vh;
+  font-size:2vh;
   text-align:center;
 }
 
@@ -214,6 +214,11 @@ h1, h2, h3 {
   align-self:center;
 }
 
+#mapDiv {
+  display:flex;
+  flex-direction: column;
+}
+
 #mapOverlay {
   background: linear-gradient(to right, #ce09ad, #ece91b);
   opacity: 0.4;
@@ -227,19 +232,26 @@ h1, h2, h3 {
   display:flex;
   flex-direction: column;
   z-index:999;
-  background-color:rgb(29, 29, 29);
-  color:white;
+  /* background-color:rgb(29, 29, 29);
+  color:white; */
+  
 }
 #mapTopBar h1 {
-  font-size:1.5em;
-  margin-top:2%;
-  margin-bottom:2px;
+  font-size:2em;
+  margin-top:2vh;
+  margin-bottom:2vh;
 }
 
 #mapTopBar h3 {
   font-size:1em;
   margin:1px;
   margin-bottom: 3%;
+}
+
+#bottomSection {
+  background-color:rgb(29, 29, 29);
+  color:white;
+  height:30vh;
 }
 
 .credit {
@@ -276,8 +288,6 @@ h1, h2, h3 {
 .hidden {
   display:none;
 }
-
-
 
 .mapStudy {
   background-color:white;

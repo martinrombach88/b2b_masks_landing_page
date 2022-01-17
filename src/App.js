@@ -11,6 +11,7 @@ function App() {
         <HeroImage/>
         <ProductInfo />
         <InteractiveMap />
+        <div></div>
         <ContactForm />
         
     </div>
