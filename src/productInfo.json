@@ -2,7 +2,7 @@
     "infoList" :  [
         {
             "id": 1,
-            "title": "Proven Effectiveness",
+            "title": "Proven Effective",
             "content": "With a KF60 level of protection, our masks have been proven by the South Korean government to be effective in preventing the spread of Covid19.",
             "icon":"./images/prevCovidPic.png"    
 
@@ -15,7 +15,7 @@
         },
         {
             "id": 3,
-            "title": "Production Capacity",
+            "title": "High Capacity",
             "content": "Cleankit has a shipping capacity of 100 million masks a month. We ship from Busan or other Korean ports, with a delivery time of 45-60 days.",
             "icon": "./images/prodCapaPic.png"  
         },
