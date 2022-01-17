@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 
-
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -12,7 +11,11 @@ body {
   color:rgb(3, 3, 71);
 }
 
-/*  ~~~~~~~~~~~~~~~~ TOP BAR ~~~~~~~~~~~~~~~~ */
+h1, h2, h3 {
+  text-align: center;
+}
+
+/*  ~~~~~~~~~~~~~~~~ HERO IMAGE ~~~~~~~~~~~~~~~~ */
 
 #topBarContainer {
   z-index:999;
@@ -24,19 +27,33 @@ body {
   color: rgb(247, 247, 247);
 }
 
-
-
 #topBar {
   color:rgb(230, 230, 230);
-  padding:10px;
   z-index:999;
+  height:8%;
+  margin-top:5%;
   display:flex;
-  height:10%;
-  justify-content: space-around;
+  flex-direction: column;
 }
 
 #topBar h2 {
   padding-left:10px;
+}
+
+#topBar p {
+  text-align:center;
+  margin:0;
+}
+
+#logoDiv {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+#logoDiv h2 {
+  font-size:1em;
+  padding:0;
 }
 
 #logo{
@@ -44,17 +61,50 @@ body {
   width:15%;
 }
 
-.logoDiv {
-  display:flex;
+#maskPic {
+  width:50%;
 }
 
-/*  ~~~~~~~~~~~~~~~~ HERO IMAGE  ~~~~~~~~~~~~~~~~ */
+#firstText {
+  z-index:999;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  height:100vh;
+}
 
+
+#firstText h1, #firstText h2 {  
+  margin: 2%;
+}
+
+#firstText h1 {
+  color:rgb(255, 255, 255);
+  font-size:1.5em;
+  
+}
+
+#firstText h2{
+  color:rgb(206, 206, 206);
+  font-size:1.1em;
+}
+
+#firstText h3 {
+  font-size:1.4em;
+  margin:5px;
+}
+
+#firstButton {
+  margin-top:7%;
+  align-self:center;
+  font-size: 1.1em;
+}
 #firstContainer {
   font-family: 'Lato', sans-serif;
   display:flex;
   flex-direction:column;
   height:100vh;
+  width:100vw;
   background-image: url(images/manProdPhoto3.jpg);
   background-size:cover;
   background-position-y: 20%;
@@ -73,31 +123,6 @@ body {
   width:100%;
 }
 
-#firstText {
-  z-index:999;
-  margin-top:10%;
-  display:flex;
-  flex-direction:column;
-  align-self:center;
-}
-
-#firstText h1 {
-  color:rgb(255, 255, 255);
-  font-size:3.2em;
-  margin:5px;
-}
-
-#firstText h2 {
-  color:rgb(206, 206, 206);
-  font-size:1.8em;
-  margin:5px;
-}
-
-#firstButton {
-  margin-top:7%;
-  align-self:center;
-  font-size: 1.1em;
-}
 
 .button {
   display:flex;
@@ -111,11 +136,6 @@ body {
   border:none;
 }
 
-.button h3 {
-  font-size:1.6em;
-  margin:5px;
-}
-
 /* ~~~~~~~~~~~~~~~~ PRODUCT INFO / BENEFITS ~~~~~~~~~~~~~~~~ */
 
 #productContainer {
@@ -123,7 +143,16 @@ body {
     flex-direction: column;
     padding:2%;
     justify-content:center;
-    /* height:100vh; */
+}
+
+#productContainer h1 {
+  font-size:1.5em;
+  text-align:center;
+}
+
+#productContainer p, #productContainer h3 {
+  font-size:1em;
+  text-align:center;
 }
 
 .maskDiv {
@@ -153,7 +182,7 @@ body {
 
 .infoCardDiv {
   width:40%;
-  font-size:1.0em;
+  font-size:0.8em;
   display:flex;
   flex-direction:column;
   align-items: center;
@@ -162,11 +191,17 @@ body {
 }
 
 .infoIcon {
-  width:100px;
-  height:100px;
+  width:50px;
+  height:50px;
 }
 
 /* ~~~~~~~~~~~~~~~~ INTERACTIVE MAP / SOCIAL PROOF ~~~~~~~~~~~~~~~~ */
+#worldMap {
+  display:flex;
+  width:90vw;
+  align-self:center;
+}
+
 #mapOverlay {
   background: linear-gradient(to right, #ce09ad, #ece91b);
   opacity: 0.4;
@@ -179,29 +214,34 @@ body {
   display:flex;
   position:relative;
   flex-direction: column;
-  color:white;
   font-size:0.8em;
 }
-
-
 #mapTopBar {
-  width:100%;
-  background-color:rgb(0, 0, 0);
   display:flex;
   flex-direction: column;
-  align-items: center;
   z-index:999;
+}
+#mapTopBar h1 {
+  font-size:1.5em;
+  margin-top:2%;
+  margin-bottom:2px;
+}
+
+#mapTopBar h3 {
+  font-size:1em;
+  margin:1px;
+  margin-bottom: 3%;
 }
 
 .credit {
   width:100%;
   display:flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding-bottom:10px;
   z-index:999;
 }
 .credit a{
-  padding-right:10px
+  padding-right:10px;
 }
 
 .mapButton {
@@ -228,18 +268,13 @@ body {
   display:none;
 }
 
-#mediaQueriesWorldMap {
-  display:none;
-}
 
-#mediaQueriesWorldMap2 {
-  display:none;
-}
 
 .mapStudy {
   background-color:white;
   color:black;
-  width:20%;
+  font-size: 0.8em;
+  width:60%;
   border:black 3px solid;
   border-radius:8px;
   padding:5px;
@@ -259,20 +294,20 @@ body {
 
 #study_2{
   position:absolute;
-  top: 45%;
+  top: 35%;
   left:13%;
 }  
 
 #study_2_btn {
   position:absolute;
-  top: 45%;
+  top: 50%;
   left:13%;
 }
 
 #study_3{
   position:absolute;
-  top:44%;
-  left:45%;
+  top:20%;
+  left:30%;
 } 
 
 #study_3_btn {
@@ -283,8 +318,8 @@ body {
 
 #study_4{
   position:absolute;
-  top:30%;
-  right:22%;
+  top:26%;
+  right:18%;
 }
 
 #study_4_btn {
@@ -296,19 +331,19 @@ body {
 
 #study_5{
   position:absolute;
-  top:48%;
-  right:16%;
+  top:30%;
+  right:20%;
 } 
 
 #study_5_btn {
   position:absolute;
   top:58%;
-  right:16%;
+  right:20%;
 }
 
 #study_6{
   position:absolute;
-  top:62%;
+  top:30%;
   right:3%;
 }
 
@@ -318,78 +353,88 @@ body {
   right:3%;
 }
 
+
 /* ~~~~~~~~~~~~~~~~ CONTACT FORM / CALL TO ACTION ~~~~~~~~~~~~~~~~ */
 
 #contact {
- background-image: url("images/factorypic3.jpg");
- background-size:cover;
- display:flex;
- flex-direction: column;
- height:100vh;
+  display:flex;
+  background-image: url("images/factorypic3.jpg");
+  background-size:cover;
+  flex-direction: column;
+  height:105vh;
+ }
+
+ #contactOverlay {
+  height:105%;
+  width:100%;
+}
+ #contactContainer {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  z-index:999;
+  padding-bottom:10%;
+ }
+
+.contactOption {
+  background-color:white;
+  padding:10px;
+  text-align:center;
+  margin:5%;
+  width:60%;
 }
 
-#contactOverlay {
-  height:100vh;
-  width:100%;
+#contactLogoDiv {
+  display:none;
 }
 
 #contactHeader {
-  padding-top:1%;
-  padding-bottom:1%;
   text-align: center;
   background-color: rgb(23, 23, 126);
   color:rgb(247, 247, 247);
   z-index:999;
   display:flex;
   justify-content: center;
-  padding-right:34%;
 }
 
-#contactContainer{
-  z-index:999;
-  display:flex;
-  justify-content: center;
-  flex-direction: row;
-  height:100%;
-}
+
+
 
 .contactBorder {
   border: black 1px solid;
   border-radius:8px;
 }
 
-#contactBooking {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding:10px;
+#phoneIcon {
+  height:15px;
+  width:15px;
+  padding-right:5px;
 }
+
+/* FORM MODAL */
 
 #contactForm{
   margin:2%;
   display:flex;
   flex-direction: column;
-  width:35%;
+  width:90%;
+  font-size: 0.8em;
   background-color:white;
 }
 
-#optionDiv {
+#contactForm input[type="text"], #contactForm input[type="text"], #contactForm input[type="phone"], #contactForm input[type="email"],  #contactForm input[type="url"] {
+  width:80%;
+}
+
+#contactBooking {
   display:flex;
-  flex-direction:column;
-  justify-content: space-evenly;
-  width:20%;
-}
-
-#phoneIcon {
-  width:4%;
-  padding-right:5px;
-}
-
-.contactOption {
-  background-color:white;
+  flex-direction: column;
+  align-items: center;
   padding:10px;
-  margin:10px;
-  text-align:center;
+}
+#contactBooking p {
+  padding-left:2%;
 }
 
 .formDiv {
@@ -441,6 +486,12 @@ body {
   margin:3%;
 }
 
+
+/* ~~~~~~~~~~~~~~~~ MEDIA QUERIES  ~~~~~~~~~~~~~~~~ */
+
+
+
+/* Map positions 
 #contactLogoDiv {
   display:flex;
   align-items:center;
@@ -452,189 +503,5 @@ body {
 }
 
 
-/* ~~~~~~~~~~~~~~~~ MEDIA QUERIES  ~~~~~~~~~~~~~~~~ */
 
-/* Small Devices */
-@media only screen 
-  and (min-device-width: 20em) {
-
-  /* Front Page */
-
-  #firstText {
-    padding-top:20%;
-  }
-
-  #firstText h1, h1 {
-    font-size:1.5em;
-    text-align: center;
-  }
-
-  #firstText h2, #firstText h3, #firstText h4 {
-    font-size:1.1em;
-  }
-
-  #logoDiv {
-    width:30%;
-    display:flex;
-    font-size:0.6em;
-    justify-content: center;
-  }
-
-  #topBar {
-    margin-top:15%;
-    text-align:center;
-    flex-direction:column;
-    align-items:center;
-  }
-
-  /*Product Info*/
-
-  #productContainer h1 {
-    font-size:1.5em;
-  }
-
-  #productContainer p, #productContainer h3 {
-    font-size:1em;
-    text-align:center;
-  }
-
-  .infoCardDiv{
-    font-size:0.8em;
-  }
-
-  #maskPic {
-    width:50%;
-  }
-
-  .infoIcon {
-    width:50px;
-    height:50px;
-  }
-
-  #study_1_btn, #study_2_btn, #study_3_btn, #study_4_btn, #study_5_btn, #study_6_btn, #study_1 button, #study_2 button, #study_3 button, #study_4 button  {
-    display:none;
-  }
-
-  #study_1 {
-    display:flex;
-    width:80%;
-    top: 14%;
-    left:8%;
-  }
-
-  #study_2 {
-    display:flex;
-    width:80%;
-    top: 32%;
-    left:8%;
-  }
-
-  #study_3 {
-    display:flex;
-    width:80%;
-    top: 52%;
-    left:8%;
-  }
-
-  #study_4 {
-    display:flex;
-    width:80%;
-    top: 72%;
-    left:8%;
-  }
-
-  /* Contact Form */
-
-  #contact {
-    height:100vh;
-  }
-
-  #contactOverlay {
-    height:100vh;
-  }
-
-  #contactLogoDiv {
-    display:none;
-  }
-
-  #contactHeader {
-    padding-right:0;
-    background:none;
-  }
-
-  #contactContainer {
-    flex-direction: column;
-    align-items:center;
-    justify-content: flex-start;
-  }
-
-  #contactBooking p {
-    padding-left:2%;
-  }
-
-  #contactForm {
-    width:90%;
-    font-size: 0.8em;
-  }
-
-  #contactForm input[type="text"], #contactForm input[type="text"], #contactForm input[type="phone"], #contactForm input[type="email"],  #contactForm input[type="url"] {
-    width:80%;
-  }
-
-   #optionDiv {
-    display:flex;
-    width:60%;
-  }
-
-  .formField input[type="submit"] {
-    margin-bottom: 10%;
-    padding-right: 45%;
-    padding-left: 45%;
-  }
-
-  #worldMap {
-    display:none;
-  }
-
-  #mediaQueriesWorldMap {
-    display:flex;
-    width:95%;
-    padding-right:20px;
-  }
-} 
-
-@media only screen 
-  and (min-device-width: 481px) {
-  
-    #firstText {
-      padding-top:4%;
-    }
-  
-    #firstText h1, h1 {
-      font-size:2.5em;
-      text-align: center;
-      margin-block-start: 0.67em;
-      margin-block-end: 0.67em;
-    }
-  
-    #firstText h2, #firstText h3, #firstText h4 {
-      font-size:2.0em;
-    }
-  
-    #logoDiv {
-      width:30%;
-      display:flex;
-      font-size:0.6em;
-    }
-
-    #topBar p{
-      font-size:0.8em;
-    }
-  
-    #topBar {
-      margin-top:0%;
-      text-align:center;
-      flex-direction:row;
-      align-items:center;
-    }
-}
+*/

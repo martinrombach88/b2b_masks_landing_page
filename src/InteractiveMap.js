@@ -99,8 +99,8 @@ const InteractiveMap = () => {
                 <h3>The Effect of Mask Wearing on SARS-CoV-2 Infection Risk</h3>
                 </div>
                 <img id="worldMap" src={worldMap} alt="world map"/> 
-                <img id="mediaQueriesWorldMap" src={worldMap2} alt="world map" />
-                <img id="mediaQueriesWorldMap2" src={worldMap3} alt="world map" />
+                {/* <img id="mediaQueriesWorldMap" src={worldMap2} alt="world map" />
+                <img id="mediaQueriesWorldMap2" src={worldMap3} alt="world map" /> */}
                 <button id="study_1_btn" className={`mapButton ${btn1Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_1')}>Canada</button>
 
                 <button id="study_2_btn" className={`mapButton ${btn2Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_2')}>USA</button> 
