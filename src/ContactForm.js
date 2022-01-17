@@ -1,17 +1,13 @@
-
+import {useState} from 'react';
 import maskLogo from './images/maskLogo.png';
 import phoneIcon from './images/phone.jpg';
+import ModalBooking from './ModalBooking'
 
 const ContactForm = () => {
+  const [openModal, setOpenModal] = useState(false);  
 
   const chatStart = () => {
-    alert("This button will take you to the chat app!")
-  }
-
-  const formCancel = (e) => {
-      e.preventDefault();
-      alert("This button would send all the information to our database!");
-      
+    alert("This button will take you to the chat app!");
   }
 
   return ( 
@@ -33,7 +29,8 @@ const ContactForm = () => {
 
                     <div className="contactOption contactBorder" id="book">
                         <h3>Book a Meeting</h3>
-                        <button>Open Form</button>
+                        <button className="openModalBtn" onClick={()=> setOpenModal(true)}>Open Form</button>
+                        {openModal && <ModalBooking closeModal={setOpenModal}/>}
                       </div>
                   
                       <div className="contactOption contactBorder" id="phone">
@@ -47,7 +44,6 @@ const ContactForm = () => {
                       </div>
 
         </div>
-
     </div>
 
 

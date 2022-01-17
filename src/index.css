@@ -62,10 +62,6 @@ h1, h2, h3 {
   width:15vw;
 }
 
-#maskPic {
-  width:50%;
-}
-
 #firstText {
   z-index:999;
   display:flex;
@@ -312,7 +308,6 @@ h1, h2, h3 {
 }
 
 #study_1{
-  
   font-size: 3vh;
 }
 
@@ -414,7 +409,7 @@ h1, h2, h3 {
   background-color: white;
   padding: 9px;
   text-align: center;
-  margin: 6%;
+  margin: 4%;
   width: 70%;
 }
 
@@ -443,6 +438,26 @@ h1, h2, h3 {
 
 /* FORM MODAL */
 
+.modalContainer {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  left:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalShadow {
+  position:fixed;
+  opacity:0.4;
+  background-color:black;
+  width:100vh;
+  height:100vh;
+  
+}
+
 #contactForm{
   margin:2%;
   display:flex;
@@ -450,6 +465,7 @@ h1, h2, h3 {
   width:90%;
   font-size: 0.8em;
   background-color:white;
+  z-index:999;
 }
 
 #contactForm input[type="text"], #contactForm input[type="text"], #contactForm input[type="phone"], #contactForm input[type="email"],  #contactForm input[type="url"] {
@@ -457,13 +473,22 @@ h1, h2, h3 {
 }
 
 #contactBooking {
+  z-index:999;
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: flex-end;
   align-items: center;
   padding:10px;
 }
-#contactBooking p {
-  padding-left:2%;
+
+#bookTitle {
+  display:flex;
+  justify-content: center;
+  width:100%;
+}
+
+.contactOption p {
+  margin:5%;
 }
 
 .formDiv {
@@ -515,9 +540,158 @@ h1, h2, h3 {
   margin:3%;
 }
 
+#cancelBtn {
+  margin:5px;
+}
+
+
+
 
 /* ~~~~~~~~~~~~~~~~ MEDIA QUERIES  ~~~~~~~~~~~~~~~~ */
 
+@media (min-width:480px){
+  #topBar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:2%;
+    margin-top:0;
+  }
+  
+  #logoDiv {
+    flex-direction: row;
+    font-size:2.7vh;
+  }
+
+  #logo {
+    width: 7vw;
+    margin-right: 5%;
+  }
+  
+  #firstCompanyDetails {
+    display: flex;
+  }
+
+  #topBar p {
+    margin: 0;
+    font-size: 2.7vh;
+  }
+
+  /* Product Info */
+  #maskPic {
+    width:55vh;
+  }
+
+  .infoIcon {
+    width: 8vh;
+  }
+  #productContainer {
+    height:auto;
+  }
+
+  #productContainer h1{
+    padding-top: 2%;
+    font-size: 4.8vh;
+  }
+
+  #productContainer h3 {
+    font-size: 3vh;
+  }
+
+  .infoCardDiv p {
+    font-size: 2.7vh;
+  }
+  #mapBox {
+    display:none;
+  }
+
+  #study_1{
+    top:34%;
+    left:11%;
+    font-size: 3vh;
+  }
+  
+  .mapStudy {
+    border-radius:8px;
+    border: black 1px solid;
+    height:fit-content;
+    width: 60%;
+    padding: 2%;
+    font-size: 2.6vh;
+  }
+
+  .mapStudy table{
+    padding-top:0;
+  }
+
+  .hideButton {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+  }
+
+  #study_1_btn { 
+    top:34%;
+    left:11%;
+  }
+  
+  #study_2{
+    top: 50%;
+    left:13%;
+  }  
+  
+  #study_2_btn {
+    top: 50%;
+    left:13%;
+  }
+  
+  #study_3{
+    top:44%;
+    left:25%;
+  } 
+  
+  #study_3_btn {
+    top:44%;
+    left:45%;
+  }
+  
+  #study_4{
+    top: 19%;
+    left: 27%;
+  }
+  
+  #study_4_btn {
+    top:30%;
+    right:22%;
+  }
+  
+  
+  #study_5{
+    top: 58%;
+    left: 21%;
+  } 
+  
+  #study_5_btn {
+    top:58%;
+    right:22%;
+  }
+  
+  #study_6{
+    top:61%;
+    left:34%;
+
+  }
+  
+  #study_6_btn {
+    top:62%;
+    right:3%;
+  }
+  
+  .contactOption {
+    margin: 2vh;
+    width:45%;
+  }
+}
 
 
 /* Map positions 

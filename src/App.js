@@ -3,7 +3,7 @@ import ProductInfo from './ProductInfo'
 import InteractiveMap from './InteractiveMap'
 import MapBox from './MapBox'
 import ContactForm from './ContactForm'
-
+import BookingForm from './ModalBooking'
 
 function App() {
 
@@ -14,6 +14,7 @@ function App() {
         <InteractiveMap />
         <MapBox />
         <ContactForm />
+        
         
     </div>
   );
