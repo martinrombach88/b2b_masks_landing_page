@@ -278,7 +278,11 @@ h1, h2, h3 {
 .hideButton {
   padding:5px;
   text-align:center;
+  
+}
 
+.hideButton button {
+  font-size:2.2vh;
 }
 
 .hidden {
@@ -288,7 +292,7 @@ h1, h2, h3 {
 .mapStudy {
   background-color:white;
   color:black;
-  font-size: 2.2vh;
+  font-size: 2.4vh;
   width:60%;
   border:black 3px solid;
   border-radius:8px;
@@ -297,7 +301,7 @@ h1, h2, h3 {
 
 #study_1{
   position:absolute;
-  top:107%;
+  top: 118%;
   left:20%;
 }
 
@@ -309,7 +313,7 @@ h1, h2, h3 {
 
 #study_2{
   position:absolute;
-  top:102%;
+  top:106%;
   left:20%;
 }  
 
@@ -321,7 +325,7 @@ h1, h2, h3 {
 
 #study_3{
   position:absolute;
-  top:104%;
+  top:108%;
   left:20%;
 } 
 
@@ -333,7 +337,7 @@ h1, h2, h3 {
 
 #study_4{
   position:absolute;
-  top:101%;
+  top:102%;
   left:20%;
 }
 
@@ -346,7 +350,7 @@ h1, h2, h3 {
 
 #study_5{
   position:absolute;
-  top:103%;
+  top:116%;
   left:20%;
 } 
 
@@ -358,7 +362,7 @@ h1, h2, h3 {
 
 #study_6{
   position:absolute;
-  top:103%;
+  top:114%;
   left:20%;
 }
 
@@ -372,7 +376,7 @@ h1, h2, h3 {
 #mapBox {
   background-color: rgb(29, 29, 29);
   color: white;
-  height: 50vh;
+  height: 54vh;
   display: flex;
   align-items: center;
   justify-content: center;
