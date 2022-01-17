@@ -227,6 +227,8 @@ h1, h2, h3 {
   display:flex;
   flex-direction: column;
   z-index:999;
+  background-color:rgb(29, 29, 29);
+  color:white;
 }
 #mapTopBar h1 {
   font-size:1.5em;
@@ -368,18 +370,19 @@ h1, h2, h3 {
   background-image: url("images/factorypic3.jpg");
   background-size:cover;
   flex-direction: column;
-  height:105vh;
+  
+  height:100vh;
  }
 
  #contactOverlay {
-  height:105%;
+  height:100%;
   width:100%;
 }
  #contactContainer {
   display:flex;
   flex-direction: column;
   align-items:center;
-  justify-content: center;
+  justify-content: space-evenly;
   z-index:999;
   padding-bottom:10%;
  }

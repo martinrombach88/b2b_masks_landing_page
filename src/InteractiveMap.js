@@ -92,13 +92,15 @@ const InteractiveMap = () => {
     
         return ( 
             <div id="mapContainer">
-                <div id="mapOverlay"></div>
+                
                 <div id="mapTopBar">
-                <h1>See the impact of masks in Global Studies</h1>
-    
-                <h3>The Effect of Mask Wearing on SARS-CoV-2 Infection Risk</h3>
+                    <h1>See the impact of masks in Global Studies</h1>
+                    <h3>The Effect of Mask Wearing on SARS-CoV-2 Infection Risk</h3>
                 </div>
-                <img id="worldMap" src={worldMap} alt="world map"/> 
+                <div id="mapDiv">
+                    <div id="mapOverlay"></div>
+                    <img id="worldMap" src={worldMap} alt="world map"/> 
+                </div>
                 {/* <img id="mediaQueriesWorldMap" src={worldMap2} alt="world map" />
                 <img id="mediaQueriesWorldMap2" src={worldMap3} alt="world map" /> */}
                 <button id="study_1_btn" className={`mapButton ${btn1Visible ? "" : "hidden"}`} onClick={() => btnBoxChange('study_1')}>Canada</button>
@@ -113,9 +115,12 @@ const InteractiveMap = () => {
                     {cards}
                 </div>
                 
-                <div className="credit">
-                <a href="https://jamanetwork.com/journals/jama/fullarticle/2776536">Source: Jama Network </a>
-                <a  href="https://www.pngwing.com/en/free-png-zahef">Map from PNGWing</a>    
+                
+                <div id="bottomSection">
+                    <div className="credit">
+                    <a href="https://jamanetwork.com/journals/jama/fullarticle/2776536">Source: Jama Network </a>
+                    <a  href="https://www.pngwing.com/en/free-png-zahef">Map from PNGWing</a>    
+                    </div>
                 </div>
             </div>
         )
