@@ -302,9 +302,13 @@ h1, h2, h3 {
   color:black;
   height: 44vh;
   width:88%;
-  padding:7%;
+  padding:5%;
   top: 102%;
   left:1%;
+}
+
+.mapStudy table {
+  padding-top: 15px;
 }
 
 #study_1{
