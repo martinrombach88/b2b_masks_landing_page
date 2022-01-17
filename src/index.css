@@ -144,12 +144,12 @@ h1, h2, h3 {
 }
 
 #productContainer h1 {
-  font-size:1.5em;
+  font-size:2em;
   text-align:center;
 }
 
-#productContainer p, #productContainer h3 {
-  font-size:1em;
+#productContainer h3 {
+  font-size:1.1em;
   text-align:center;
 }
 
@@ -159,16 +159,16 @@ h1, h2, h3 {
     align-items:center;
 }
 #maskPic {
-  width:40%;
+  width:55%;
 }
 .infoCardDiv {
   width:40%;
-  font-size:0.8em;
+  font-size:1.2em;
   display:flex;
   flex-direction:column;
   align-items: center;
   text-align:left;
-  margin:1%;
+  margin-top: 2%;
 }
 
 .infoCardDiv h3{
@@ -184,7 +184,6 @@ h1, h2, h3 {
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
-  
   margin:0;
   padding:0;
 }
@@ -194,9 +193,17 @@ h1, h2, h3 {
 .infoIcon {
   width:50px;
   height:50px;
+  padding-bottom:10px;
 }
 
 /* ~~~~~~~~~~~~~~~~ INTERACTIVE MAP / SOCIAL PROOF ~~~~~~~~~~~~~~~~ */
+#mapContainer {
+  display:flex;
+  position:relative;
+  flex-direction: column;
+  font-size:0.8em;
+}
+
 #worldMap {
   display:flex;
   width:90vw;
@@ -211,12 +218,7 @@ h1, h2, h3 {
   width: 100%;
 }
 
-#mapContainer {
-  display:flex;
-  position:relative;
-  flex-direction: column;
-  font-size:0.8em;
-}
+
 #mapTopBar {
   display:flex;
   flex-direction: column;
