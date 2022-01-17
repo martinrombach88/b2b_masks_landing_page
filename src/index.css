@@ -277,13 +277,15 @@ h1, h2, h3 {
 }
 
 .hideButton {
-  padding:5px;
-  text-align:center;
+  display:flex;
+  justify-content: flex-end;
+  padding-top:5%;
   
 }
 
 .hideButton button {
   font-size:3.4vh;
+
 }
 
 .hidden {
@@ -303,7 +305,7 @@ h1, h2, h3 {
 
 #study_1{
   
-  font-size: 3.4vh;
+  font-size: 3vh;
 }
 
 #study_1_btn { 
@@ -312,7 +314,7 @@ h1, h2, h3 {
 }
 
 #study_2{
-  font-size: 2.8vh;
+  font-size: 2.4vh;
   
 }  
 
@@ -322,7 +324,7 @@ h1, h2, h3 {
 }
 
 #study_3{
-  font-size: 3vh;
+  font-size: 2.6vh;
   
 } 
 
@@ -332,7 +334,7 @@ h1, h2, h3 {
 }
 
 #study_4{
-  font-size: 2.8vh;
+  font-size: 2.4vh;
   
 }
 
@@ -343,17 +345,17 @@ h1, h2, h3 {
 
 
 #study_5{
-  font-size: 3vh;
+  font-size: 2.4vh;
   
 } 
 
 #study_5_btn {
   top:58%;
-  right:20%;
+  right:22%;
 }
 
 #study_6{
-  font-size: 3vh;
+  font-size: 2.6vh;
   
 }
 
