@@ -431,18 +431,14 @@ h1, h2, h3 {
   justify-content: center;
 }
 
-
-
-
 .contactBorder {
   border: black 1px solid;
   border-radius:8px;
 }
 
 #phoneIcon {
-  height:15px;
-  width:15px;
-  padding-right:5px;
+  width:4vh;
+  padding-right:10px;
 }
 
 /* FORM MODAL */
