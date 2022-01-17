@@ -288,7 +288,7 @@ h1, h2, h3 {
 .mapStudy {
   background-color:white;
   color:black;
-  font-size: 1.5vh;
+  font-size: 2.2vh;
   width:60%;
   border:black 3px solid;
   border-radius:8px;
@@ -368,16 +368,19 @@ h1, h2, h3 {
   right:3%;
 }
 
+
 #mapBox {
-  background-color:rgb(29, 29, 29);
-  color:white;
-  height:26vh;
-  display:flex;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  height: 50vh;
+  display: flex;
+  align-items: center;
   justify-content: center;
+  font-size:2.5vh;
 }
 
-#mapBox h2{
-  font-size:2.6vh;
+#mapBox h3 {
+  width:46%;
 }
 
 /* ~~~~~~~~~~~~~~~~ CONTACT FORM / CALL TO ACTION ~~~~~~~~~~~~~~~~ */
