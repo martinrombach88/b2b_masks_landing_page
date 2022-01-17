@@ -297,7 +297,7 @@ h1, h2, h3 {
 
 #study_1{
   position:absolute;
-  top:102%;
+  top:107%;
   left:20%;
 }
 
@@ -321,7 +321,7 @@ h1, h2, h3 {
 
 #study_3{
   position:absolute;
-  top:102%;
+  top:104%;
   left:20%;
 } 
 
@@ -333,7 +333,7 @@ h1, h2, h3 {
 
 #study_4{
   position:absolute;
-  top:102%;
+  top:101%;
   left:20%;
 }
 
@@ -346,7 +346,7 @@ h1, h2, h3 {
 
 #study_5{
   position:absolute;
-  top:102%;
+  top:103%;
   left:20%;
 } 
 
@@ -358,7 +358,7 @@ h1, h2, h3 {
 
 #study_6{
   position:absolute;
-  top:102%;
+  top:103%;
   left:20%;
 }
 
@@ -371,7 +371,7 @@ h1, h2, h3 {
 #mapBox {
   background-color:rgb(29, 29, 29);
   color:white;
-  height:30vh;
+  height:26vh;
   display:flex;
   justify-content: center;
 }
