@@ -1,6 +1,7 @@
 import HeroImage from './HeroImage'
 import ProductInfo from './ProductInfo'
 import InteractiveMap from './InteractiveMap'
+import MapBox from './MapBox'
 import ContactForm from './ContactForm'
 
 
@@ -11,7 +12,7 @@ function App() {
         <HeroImage/>
         <ProductInfo />
         <InteractiveMap />
-        <div></div>
+        <MapBox />
         <ContactForm />
         
     </div>
