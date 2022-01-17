@@ -29,7 +29,7 @@ function ModalBooking({closeModal}) {
                 <button id="xBtn" onClick={() => closeModal(false)}>X</button>
           </div>
                   <p>To schedule a meeting with the Cleankit Sales Team, fill in the form
-                    and click 'Submit'. You will receive a confirmation email soon after.</p>
+                    and click 'Submit'.<br/> You will receive a confirmation email soon after.</p>
                   <form onSubmit={handleSubmit(onSubmit)}>
                       <div className="formDiv">
                         <div className="formField">

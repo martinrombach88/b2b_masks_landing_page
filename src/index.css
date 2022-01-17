@@ -687,9 +687,26 @@ h1, h2, h3 {
     right:3%;
   }
   
+  #contactForm {
+    font-size:1em;
+    width:fit-content;
+  }
   .contactOption {
     margin: 2vh;
     width:45%;
+  }
+  .contactOption p {
+    margin: 1vh;
+  }
+  .contactOption button, .contactOption input  {
+    font-size:2.7vh;
+  }
+  
+  #meetingInput div {
+    margin: 1%;
+  }
+  .modalShadow{
+    width: 100%;
   }
 }
 
