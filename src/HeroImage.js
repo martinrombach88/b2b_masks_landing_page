@@ -7,7 +7,7 @@ const HeroImage = () => {
             <div id="topBar">            
                 <div id="logoDiv"><img src={maskLogo} alt="logo" id="logo"/>
                 <h2>Cleankit</h2></div>
-                <p>Korea based factory accepting local and international orders</p>
+                <p id="firstCompanyDetails">Korea based factory accepting local and international orders</p>
             </div>
             <div id="firstText">
                     <h1>Looking for a large scale PPE solution?</h1>
