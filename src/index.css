@@ -144,12 +144,14 @@ h1, h2, h3 {
 }
 
 #productContainer h1 {
-  font-size:2em;
+  font-size:1.3em;
+  padding:10px;
   text-align:center;
+  margin:0;
 }
 
 #productContainer h3 {
-  font-size:1.1em;
+  font-size:1em;
   text-align:center;
 }
 
@@ -159,16 +161,17 @@ h1, h2, h3 {
     align-items:center;
 }
 #maskPic {
-  width:55%;
+  width:45%;
 }
 .infoCardDiv {
   width:40%;
-  font-size:1.2em;
+  font-size:0.9em;
   display:flex;
   flex-direction:column;
   align-items: center;
   text-align:left;
-  margin-top: 2%;
+  margin-left:1%;
+  margin-right:1%;
 }
 
 .infoCardDiv h3{
@@ -188,11 +191,9 @@ h1, h2, h3 {
   padding:0;
 }
 
-
-
 .infoIcon {
-  width:50px;
-  height:50px;
+  width:30px;
+  height:30px;
   padding-bottom:10px;
 }
 
