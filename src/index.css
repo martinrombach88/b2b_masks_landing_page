@@ -15,6 +15,7 @@ h1, h2, h3 {
   text-align: center;
 }
 
+
 /*  ~~~~~~~~~~~~~~~~ HERO IMAGE ~~~~~~~~~~~~~~~~ */
 
 #topBarContainer {
@@ -437,6 +438,10 @@ h1, h2, h3 {
   padding-right:10px;
 }
 
+.cursorBtn {
+  cursor:pointer;
+}
+
 /* FORM MODAL */
 
 .modalContainer {
@@ -764,19 +769,3 @@ h1, h2, h3 {
     }
   } 
 }
-
-
-/* Map positions 
-#contactLogoDiv {
-  display:flex;
-  align-items:center;
-}
-
-#contactLogoDiv img{
-  width:13%;
-  margin-right:3%;
-}
-
-
-
-*/
