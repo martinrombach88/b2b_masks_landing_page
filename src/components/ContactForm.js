@@ -1,7 +1,7 @@
 import {useState} from 'react';
-import maskLogo from './images/maskLogo.png';
-import phoneIcon from './images/phone.jpg';
-import ModalBooking from './ModalBooking'
+import maskLogo from '../images/maskLogo.png';
+import phoneIcon from '../images/phone.jpg';
+import ModalBooking from '../components/ModalBooking'
 
 const ContactForm = () => {
   const [openModal, setOpenModal] = useState(false);  

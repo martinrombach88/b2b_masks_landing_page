@@ -1,9 +1,9 @@
-import productInfo from './productInfo.json';
-import maskPic from './images/mask.jpg';
-import prevCovidPic from  './images/prevCovidPic.png';
-import highQualityPic from './images/highQualityPic.png';
-import prodCapaPic from './images/prodCapaPic.jpg';
-import costPic from './images/costPic.png';
+import productInfo from '../json/productInfo.json';
+import maskPic from '../images/mask.jpg';
+import prevCovidPic from  '../images/prevCovidPic.png';
+import highQualityPic from '../images/highQualityPic.png';
+import prodCapaPic from '../images/prodCapaPic.jpg';
+import costPic from '../images/costPic.png';
 
 const infoCards = productInfo.infoList;
 

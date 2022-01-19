@@ -1,7 +1,5 @@
-import worldMap from './images/worldMap.png';
-import worldMap2 from './images/worldMap2.png';
-import worldMap3 from './images/worldMap3.png';
-import maskStudies from './maskStudies.json';
+import worldMap from '../images/worldMap.png';
+import maskStudies from '../json/maskStudies.json';
 import {useState} from 'react';
 
 const infoCards = maskStudies.infoList;

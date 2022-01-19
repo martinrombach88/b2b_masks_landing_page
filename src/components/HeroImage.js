@@ -1,4 +1,4 @@
-import maskLogo from './images/maskLogo.png';
+import maskLogo from '../images/maskLogo.png';
 
 const HeroImage = () => {
     return ( 

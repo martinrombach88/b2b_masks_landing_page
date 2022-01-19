@@ -1,9 +1,9 @@
-import HeroImage from './HeroImage'
-import ProductInfo from './ProductInfo'
-import InteractiveMap from './InteractiveMap'
-import MapBox from './MapBox'
-import ContactForm from './ContactForm'
-import BookingForm from './ModalBooking'
+import HeroImage from '../src/components/HeroImage'
+import ProductInfo from '../src/components/ProductInfo'
+import InteractiveMap from '../src/components/InteractiveMap'
+import MapBox from '../src/components/MapBox'
+import ContactForm from '../src/components/ContactForm'
+import BookingForm from '../src/components/ModalBooking'
 
 function App() {
 

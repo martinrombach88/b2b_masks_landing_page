@@ -102,7 +102,6 @@ h1, h2, h3 {
   display:flex;
   flex-direction:column;
   height:100vh;
-  width:100vw;
   background-image: url(images/manProdPhoto3.jpg);
   background-size:cover;
   background-position-y: 20%;
@@ -141,7 +140,6 @@ h1, h2, h3 {
 
 #productContainer {
     height:100vh;
-    width:100vw;
 }
 
 #productContainer h1 {
@@ -232,8 +230,7 @@ h1, h2, h3 {
   display:flex;
   flex-direction: column;
   z-index:999;
-  /* background-color:rgb(29, 29, 29);
-  color:white; */
+
   
 }
 #mapTopBar h1 {
@@ -285,7 +282,11 @@ h1, h2, h3 {
 
 .hideButton button {
   font-size:3.4vh;
-
+  background-color: black;
+  border-radius: 8px;
+  padding: 5px;
+  color: white;
+  border: none;
 }
 
 .hidden {
@@ -294,8 +295,8 @@ h1, h2, h3 {
 
 .mapStudy {
   position:absolute;
-  background-color:white;
-  color:black;
+ opacity:0.9;
+    background-color:palegreen;
   height: 44vh;
   width:88%;
   padding:5%;
@@ -582,11 +583,13 @@ h1, h2, h3 {
     width:55vh;
   }
 
+  
   .infoIcon {
     width: 8vh;
   }
   #productContainer {
     height:auto;
+    
   }
 
   #productContainer h1{
@@ -708,6 +711,58 @@ h1, h2, h3 {
   .modalShadow{
     width: 100%;
   }
+
+   @media (min-width:670px){
+     
+    #worldMap {
+      display:flex;
+      width:55vw;
+      align-self:center;
+    }
+    #logo {
+      width: 4vw;
+      margin-right: 5%;
+    }
+
+    .infoIcon {
+      width:10vh;
+      padding-bottom:5px;
+    }
+
+    .mapStudy {
+    width: auto;
+    padding:1%;
+   
+    }
+
+    #study_1,  #study_2,  #study_3,  #study_4,  #study_5,  #study_6 {
+      font-size:1.5em;
+    }
+
+    #study_1_btn {
+      left: 28%;
+    }
+
+    #study_2_btn {
+      top: 48%;
+      left: 29%;
+    }
+    
+    #study_5 {
+      left: 40%;
+    }
+    #study_6 {
+      left: 62%;
+      top: 41%;
+    }
+
+    .contactOption {
+      width: 20%;
+    }
+    #infoCards {
+      padding-bottom:2%;
+    }
+  } 
 }
 
 
