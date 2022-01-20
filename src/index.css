@@ -274,20 +274,15 @@ h1, h2, h3 {
   cursor:pointer;
 }
 
-.hideButton {
+.hideButtonDiv {
   display:flex;
   justify-content: flex-end;
-  padding-top:5%;
-  
 }
 
-.hideButton button {
+.hideButton {
   font-size:3.4vh;
-  background-color: black;
-  border-radius: 8px;
-  padding: 5px;
-  color: white;
-  border: none;
+  background-color:none;
+  border:none;
 }
 
 .hidden {
@@ -296,6 +291,7 @@ h1, h2, h3 {
 
 .mapStudy {
   position:absolute;
+
   background-color:white;
   height: 44vh;
   width:88%;
@@ -625,6 +621,7 @@ h1, h2, h3 {
     width: 60%;
     padding: 2%;
     font-size: 2.6vh;
+    cursor:pointer;
   }
 
   .mapStudy table{
@@ -633,8 +630,9 @@ h1, h2, h3 {
 
   .hideButton {
     display: flex;
-    justify-content: center;
-    padding-top: 5%;
+    justify-content: flex-end;
+    background:none;
+    color:black;
   }
 
   #study_1_btn { 
@@ -668,8 +666,8 @@ h1, h2, h3 {
   }
   
   #study_4_btn {
-    top:30%;
-    right:22%;
+    top: 30%;
+    right: 32%;
   }
   
   
@@ -679,8 +677,8 @@ h1, h2, h3 {
   } 
   
   #study_5_btn {
-    top:58%;
-    right:22%;
+    right: 20%;
+    top: 58%;
   }
   
   #study_6{
@@ -690,8 +688,8 @@ h1, h2, h3 {
   }
   
   #study_6_btn {
-    top:62%;
-    right:3%;
+    right: 10%;
+    top: 62%;
   }
   
   #contactForm {
@@ -716,7 +714,7 @@ h1, h2, h3 {
     width: 100%;
   }
 
-   @media (min-width:670px){
+  @media (min-width:670px){
      
     #worldMap {
       display:flex;
@@ -755,9 +753,17 @@ h1, h2, h3 {
     #study_5 {
       left: 40%;
     }
+
+    #study_5_btn {
+      right: 30%;
+    }
     #study_6 {
-      left: 62%;
-      top: 41%;
+      right: 23%;
+      top: 50%;
+    }
+
+    #study_6_btn {
+      right: 23%;
     }
 
     .contactOption {

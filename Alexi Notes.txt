@@ -2,7 +2,7 @@ Second part -
 Center or justify the text
 
 Map
-Thailand and Guam off
+Thailand and Guam off (670+)
 Have a cursor:pointer on 
 
 Put a cross in the corner, which exits
@@ -14,7 +14,8 @@ Click on the outside of the buttons
 
 Only one button should be open at a time
 Change to logic - 
-Remove all hiding of buttons.
+
+Remove all hiding of buttons. -- Complete
 
 1. Make a useState
 2. Before opening, check the useState (useState becomes true)
