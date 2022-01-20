@@ -296,8 +296,7 @@ h1, h2, h3 {
 
 .mapStudy {
   position:absolute;
- opacity:0.9;
-    background-color:palegreen;
+  background-color:white;
   height: 44vh;
   width:88%;
   padding:5%;
