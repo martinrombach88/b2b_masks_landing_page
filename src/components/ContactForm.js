@@ -29,7 +29,7 @@ const ContactForm = () => {
 
                     <div className="contactOption contactBorder" id="book">
                         <h3>Book a Meeting</h3>
-                        <button className="cursorBtn openModalBtn" onClick={()=> setOpenModal(true)}>Open Form</button>
+                        <button className="blueBtn centerBtn" onClick={()=> setOpenModal(true)}>Open Form</button>
                         {openModal && <ModalBooking closeModal={setOpenModal}/>}
                       </div>
                   
@@ -40,7 +40,7 @@ const ContactForm = () => {
 
                       <div className="contactOption contactBorder" id="chat">
                         <h3>Chat with our sales team</h3>
-                        <button className="cursorBtn" onClick={chatStart}>Begin Chat</button>
+                        <button className="blueBtn centerBtn" onClick={chatStart}>Begin Chat</button>
                       </div>
 
         </div>

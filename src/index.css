@@ -22,11 +22,6 @@ h1, h2, h3 {
   z-index:999;
 }
 
-#firstContainer a {
-  text-decoration: none;
-  background-color: rgb(23, 23, 126);
-  color: rgb(247, 247, 247);
-}
 
 #topBar {
   color:rgb(230, 230, 230);
@@ -125,16 +120,49 @@ h1, h2, h3 {
 }
 
 
-.button {
+button, input[type="submit"]{
   display:flex;
   align-items:center;
   justify-content: center;
-  width:200px;
   border-radius:8px;
+  padding:8px;
+  margin-right:2%;
   cursor:pointer;
+}
+
+.blueBtn {
   background-color: rgb(23, 23, 126);
   color:rgb(247, 247, 247);
   border:none;
+}
+
+.blueBtn a {
+  color:rgb(247, 247, 247);
+  text-decoration: none;
+}
+
+.blueBtn:hover {
+  background-color: rgb(33, 33, 182);
+  color:white;
+}
+
+.centerBtn {
+    justify-content: center;
+    display: flex;
+    padding:10px;
+}
+
+.centerBtn button {
+  margin-right:5px;
+}
+
+.bigBtn {
+  font-size:4vh;
+}
+
+.formDiv  {
+  margin-bottom:0;
+  padding:0;
 }
 
 /* ~~~~~~~~~~~~~~~~ PRODUCT INFO / BENEFITS ~~~~~~~~~~~~~~~~ */
@@ -260,17 +288,10 @@ h1, h2, h3 {
 
 .mapButton {
   position:absolute;
-  background-color:black;
-  color:white;
-  border-radius:8px;
-  border:none;
-  padding:10px;
   font-size:1.5em;
 }
 
-.mapButton:hover {
-  background-color:rgb(80, 80, 80);
-  color:white;
+.button:hover {
   cursor:pointer;
 }
 
@@ -281,7 +302,7 @@ h1, h2, h3 {
 
 .hideButton {
   font-size:3.4vh;
-  background-color:none;
+  background:none;
   border:none;
   cursor:pointer;
 }
@@ -406,8 +427,10 @@ h1, h2, h3 {
   background-color: white;
   padding: 9px;
   text-align: center;
-  margin: 4%;
   width: 70%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 #contactLogoDiv {
@@ -488,7 +511,7 @@ h1, h2, h3 {
 }
 
 .contactOption p {
-  margin:5%;
+  margin:3vh;
 }
 
 .formDiv {
@@ -514,16 +537,9 @@ h1, h2, h3 {
 
 .formField input[type="submit"] {
   font-family: 'Lato', sans-serif;
-  color:rgb(3, 3, 71);
-  padding:5px;
-  margin-bottom:3%;
-  border-radius:8px;
-  border: 1px black solid;
 }
 
-.formField input[type="submit"] {
-  margin-bottom:10%;
-}
+
 
 #meetingPic {
   align-self:center;
@@ -644,7 +660,7 @@ h1, h2, h3 {
   }
   
   #study_2{
-    top: 50%;
+    top: 40%;
     left:13%;
   }  
   
@@ -704,21 +720,27 @@ h1, h2, h3 {
     width:45%;
   }
   .contactOption p {
-    margin: 1vh;
+    margin: 3vh;
   }
   .contactOption button, .contactOption input  {
     font-size:2.7vh;
+    
   }
   
   #meetingInput div {
     margin: 1%;
   }
   .modalShadow{
-    width: 100%;
+    width: 120%;
   }
 
   @media (min-width:670px){
-     
+    #book {
+      margin-top:2vh;
+    }
+    .contactOption {
+      margin: 2vh;
+    }
     #worldMap {
       display:flex;
       width:55vw;
@@ -775,5 +797,7 @@ h1, h2, h3 {
     #infoCards {
       padding-bottom:2%;
     }
+
+
   } 
 }

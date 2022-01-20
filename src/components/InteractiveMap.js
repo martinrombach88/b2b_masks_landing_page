@@ -5,52 +5,29 @@ import {useState} from 'react';
 const infoCards = maskStudies.infoList;
 
 const InteractiveMap = () => {
-       const [box1Visible, setBox1Visible] = useState(false);
-       const [box2Visible, setBox2Visible] = useState(false);
-       const [box3Visible, setBox3Visible] = useState(false);
-       const [box4Visible, setBox4Visible] = useState(false);
-       const [box5Visible, setBox5Visible] = useState(false);
-       const [box6Visible, setBox6Visible] = useState(false);
+    const [box1Visible, setBox1Visible] = useState(false);
+    const [box2Visible, setBox2Visible] = useState(false);
+    const [box3Visible, setBox3Visible] = useState(false);
+    const [box4Visible, setBox4Visible] = useState(false);
+    const [box5Visible, setBox5Visible] = useState(false);
+    const [box6Visible, setBox6Visible] = useState(false);
        
        //Figure out what to pass as a parameter to fire properly.
-       const btnBoxChange = (studyNumber) => {
+    const btnBoxChange = (studyNumber) => {
 
         //Use a loop to trim over the end number, and avoid duplication.
-
-            if (studyNumber === 'study_1') {
-                setBox1Visible(true);
-                
-            } else if (studyNumber === 'study_1_hide') {
-                setBox1Visible(false);
-               
+    const setBoxArray = [setBox1Visible, setBox2Visible, setBox3Visible, setBox4Visible, setBox5Visible, setBox6Visible];
+    const studyArray = ['study_1', 'study_2', 'study_3', 'study_4', 'study_5', 'study_6'];
+        
+        for (let i = 0; i < setBoxArray.length; i++){
+            
+            if (studyNumber === studyArray[i]) {
+                setBoxArray[i](true);
+            } else {
+                setBoxArray[i](false);
             }
-            if (studyNumber === 'study_2') {
-                setBox2Visible(true);
-                
-            } else if (studyNumber === 'study_2_hide') {
-                setBox2Visible(false);
-            }
-            if (studyNumber === 'study_3') {
-                setBox3Visible(true);
-            } else if (studyNumber === 'study_3_hide') {
-                setBox3Visible(false);
-            }
-            if (studyNumber === 'study_4') {
-                setBox4Visible(true);
-            } else if (studyNumber === 'study_4_hide') {
-                setBox4Visible(false);
-            }
-            if (studyNumber === 'study_5') {
-                setBox5Visible(true);
-            } else if (studyNumber === 'study_5_hide') {
-                setBox5Visible(false);
-            }
-            if (studyNumber === 'study_6') {
-                setBox6Visible(true);
-            } else if (studyNumber === 'study_6_hide') {
-                setBox6Visible(false);
-            }
-       }
+        }
+    } 
 
         const cards = infoCards.map((p)=>{
             
@@ -93,13 +70,13 @@ const InteractiveMap = () => {
                             
                     {/* <img id="mediaQueriesWorldMap" src={worldMap2} alt="world map" />
                     <img id="mediaQueriesWorldMap2" src={worldMap3} alt="world map" /> */}
-                    <button id="study_1_btn" className={`mapButton`} onClick={() => btnBoxChange('study_1')}>Canada</button>
+                    <button id="study_1_btn" className={`blueBtn mapButton`} onClick={() => btnBoxChange('study_1')}>Canada</button>
 
-                    <button id="study_2_btn" className={`mapButton`} onClick={() => btnBoxChange('study_2')}>USA</button> 
-                    <button id="study_3_btn" className={`mapButton`} onClick={() => btnBoxChange('study_3')}>Germany</button>
-                    <button id="study_4_btn" className={`mapButton`} onClick={() => btnBoxChange('study_4')}>China</button>
-                    <button id="study_5_btn" className={`mapButton`} onClick={() => btnBoxChange('study_5')}>Thailand</button>
-                    <button id="study_6_btn" className={`mapButton`} onClick={() => btnBoxChange('study_6')}>Guam</button>
+                    <button id="study_2_btn" className={`blueBtn mapButton`} onClick={() => btnBoxChange('study_2')}>USA</button> 
+                    <button id="study_3_btn" className={`blueBtn mapButton`} onClick={() => btnBoxChange('study_3')}>Germany</button>
+                    <button id="study_4_btn" className={`blueBtn mapButton`} onClick={() => btnBoxChange('study_4')}>China</button>
+                    <button id="study_5_btn" className={`blueBtn mapButton`} onClick={() => btnBoxChange('study_5')}>Thailand</button>
+                    <button id="study_6_btn" className={`blueBtn mapButton`} onClick={() => btnBoxChange('study_6')}>Guam</button>
 
                     <div className="cards" >
                         {cards}

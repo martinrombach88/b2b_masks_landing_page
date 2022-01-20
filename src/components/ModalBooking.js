@@ -80,10 +80,11 @@ function ModalBooking({closeModal}) {
 
                   </div>
 
-                <div className="formDiv">
-                  <div className="formField">
-                    <button id="cancelBtn" className="cursorBtn" onClick={() => closeModal(false)}>Cancel</button>
-                    <input className="cursorBtn" type="submit"/>
+                <div>
+                  <div className="centerBtn">
+                    <input className="blueBtn" type="submit"/>
+                    <button className="blueBtn" onClick={() => closeModal(false)}>Cancel</button>
+
                   </div>
                 </div>
             </form> 
