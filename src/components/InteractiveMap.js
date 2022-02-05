@@ -28,11 +28,10 @@ const InteractiveMap = () => {
             }
         }
     } 
-
+        
         const cards = infoCards.map((p)=>{
-            
             return(               
-                <div className={`mapStudy ${eval(p.box) ? "" : "hidden"}`} key={p.id} id={p.id}>
+                <div className={`mapStudy ${(eval(p.box)) ? "" : "hidden"}`} key={p.id} id={p.id}>
                     <div className="hideButtonDiv">
                         <button className="hideButton" onClick={() => btnBoxChange(p.hideBox)}>X</button>
                     </div>
