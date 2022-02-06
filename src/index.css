@@ -167,24 +167,21 @@ button, input[type="submit"]{
 
 /* ~~~~~~~~~~~~~~~~ PRODUCT INFO / BENEFITS ~~~~~~~~~~~~~~~~ */
 
-#productContainer {
-    height:100vh;
-}
 
 #productContainer h1 {
-  padding-top:5%;
+  padding-top:2%;
   font-size:4vh;
   text-align:center;
   margin:0;
 }
 
 #productContainer h3 {
-  font-size:2vh;
+  font-size:1.5vh;
   text-align:center;
 }
 
 .maskDiv {
-    padding-top:5%;
+    padding-top:2%;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -193,7 +190,7 @@ button, input[type="submit"]{
   width:30vh;
 }
 .infoCardDiv {
-  padding-top: 5%;
+  padding-top: 2%;
   width:40%;
   font-size:100%;
   display:flex;
@@ -598,7 +595,7 @@ button, input[type="submit"]{
 
   /* Product Info */
   #maskPic {
-    width:55vh;
+    width:40vh;
   }
 
   
@@ -752,7 +749,7 @@ button, input[type="submit"]{
     }
 
     .infoIcon {
-      width:10vh;
+      width:5vh;
       padding-bottom:5px;
     }
 

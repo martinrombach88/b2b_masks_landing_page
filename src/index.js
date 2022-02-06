@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import ReactFullpage from '@fullpage/react-fullpage';
+import FullPage from './FullPage.js';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FullPage />
   </React.StrictMode>,
   document.getElementById('root')
 );

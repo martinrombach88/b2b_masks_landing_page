@@ -1,0 +1,3 @@
+    <button onClick={() => fullpageApi.moveSectionDown()}>
+        Click me to move down
+    </button>

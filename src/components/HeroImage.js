@@ -12,7 +12,7 @@ const HeroImage = () => {
             <div id="firstText">
                     <h1>Looking for a large scale PPE solution?</h1>
                     <h2>The Cleankit factory is ready for bulk orders of masks</h2>
-                    <button className="blueBtn " id="firstButton" ><a href="#contact" className="bigBtn">Get Started</a></button>
+                    <button className="blueBtn " id="firstButton" ><a href="" className="bigBtn">Get Started</a></button>
             </div> 
         </div>
     )
