@@ -21,6 +21,9 @@ const ProductInfo = () => {
                         {
                             infoCards.map((p)=>{
                             let image = '';
+                            // console.log(p.icon)
+                            // image = require('../images/' + p.icon);
+                            // //
                             if (p.id === 1) image = prevCovidPic;
                             else if (p.id === 2) image = highQualityPic;
                             else if (p.id === 3) image = prodCapaPic;
@@ -29,7 +32,7 @@ const ProductInfo = () => {
                                 return(
                                     
                                     <div className="infoCardDiv" key={p.id}>  
-                                        <img className='infoIcon' src={image} alt="icon" />
+                                        <img className='infoIcon' src={image} alt="icon"/>
                                         <h3>{p.title}</h3>
                                         <p>{p.content}</p>
                                     </div>

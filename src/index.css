@@ -199,7 +199,7 @@ button, input[type="submit"]{
   text-align:left;
   margin-left:1%;
   margin-right:1%;
-  font-size:1.8vh;
+  font-size:1.4vh;
 }
 
 .infoCardDiv h3{
@@ -230,6 +230,7 @@ button, input[type="submit"]{
   position:relative;
   flex-direction: column;
   font-size:0.8em;
+  height:100vh;
 }
 
 #worldMap {
@@ -247,7 +248,7 @@ button, input[type="submit"]{
   background: linear-gradient(to right, #ce09ad, #ece91b);
   opacity: 0.4;
   position: absolute;
-  height: 100%;
+  height: 100vh;
   width: 100%;
 }
 
@@ -276,8 +277,7 @@ button, input[type="submit"]{
   width:100%;
   display:flex;
   justify-content: center;
-  padding-bottom:10px;
-  z-index:999;
+  z-index:980;
 }
 .credit a{
   padding-right:10px;
@@ -293,12 +293,12 @@ button, input[type="submit"]{
 }
 
 .hideButtonDiv {
-  display:flex;
-  justify-content: flex-end;
+  right:2%;
+  position: absolute;
 }
 
 .hideButton {
-  font-size:3.4vh;
+  font-size:2.4vh;
   background:none;
   border:none;
   cursor:pointer;
@@ -309,76 +309,44 @@ button, input[type="submit"]{
 }
 
 .mapStudy {
-  position:absolute;
-  background-color:white;
-  height: 44vh;
-  width:88%;
-  padding:5%;
-  top: 102%;
-  left:1%;
-}
-
-.mapStudy table {
-  padding-top: 15px;
-}
-
-#study_1{
-  font-size: 3vh;
+  position: absolute;
+  background-color: white;
+  border-radius: 2%;
+  width: 88%;
+  z-index: 980;
+  padding:1%;
+  top:55%;
+  left:5%;
+  font-size: 2.5h;
 }
 
 #study_1_btn { 
-  top:34%;
   left:11%;
+  top: 20%;
 }
-
-#study_2{
-  font-size: 2.4vh;
-  
-}  
 
 #study_2_btn {
-  top: 50%;
   left:13%;
+  top: 30%;
 }
-
-#study_3{
-  font-size: 2.6vh;
-  
-} 
 
 #study_3_btn {
-  top:44%;
   left:45%;
-}
-
-#study_4{
-  font-size: 2.4vh;
-  
+  top:34%;
 }
 
 #study_4_btn {
-  top:30%;
+  top:20%;
   right:22%;
 }
-
-
-#study_5{
-  font-size: 2.4vh;
-  
-} 
 
 #study_5_btn {
-  top:58%;
+  top:28%;
   right:22%;
-}
-
-#study_6{
-  font-size: 2.6vh;
-  
 }
 
 #study_6_btn {
-  top:62%;
+  top:32%;
   right:3%;
 }
 
@@ -428,6 +396,7 @@ button, input[type="submit"]{
   align-items: center;
   display: flex;
   flex-direction: column;
+  margin-top:20px;
 }
 
 #contactLogoDiv {
@@ -644,11 +613,13 @@ button, input[type="submit"]{
   }
 
   .hideButton {
-    position:absolute;
+    position:none;
     display: flex;
     justify-content: flex-end;
     background:none;
     color:black;
+    margin:0;
+    padding:0;
   }
 
   #study_1_btn { 
@@ -790,9 +761,6 @@ button, input[type="submit"]{
 
     .contactOption {
       width: 20%;
-    }
-    #infoCards {
-      padding-bottom:2%;
     }
 
 

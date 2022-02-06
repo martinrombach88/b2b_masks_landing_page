@@ -4,26 +4,26 @@
             "id": 1,
             "title": "Proven Effective",
             "content": "With a KF60 level of protection, our masks have been proven by the South Korean government to be effective in preventing the spread of Covid19.",
-            "icon":"./images/prevCovidPic.png"    
+            "icon":"prevCovidPic.png"
 
         },
         {
             "id": 2,
             "title": "Quality Materials",
             "content": "Our masks are 18cm x 9cm and made of 3 ply domestic non-woven fabric (100% polyester). The design is CE certified, meeting EU requirements.",
-            "icon": "./images/highQualityPic.png"     
+            "icon": "highQualityPic.png"     
         },
         {
             "id": 3,
             "title": "High Capacity",
             "content": "Cleankit has a shipping capacity of 100 million masks a month. We ship from Busan or other Korean ports, with a delivery time of 45-60 days.",
-            "icon": "./images/prodCapaPic.png"  
+            "icon": "prodCapaPic.png"  
         },
         {
             "id": 4,
             "title": "Competitive Price",
             "content": "We keep to an affordable price: $0.38 a mask. We are happy to cater to your budget and handling capacity.",
-            "icon": "effective.jpg"
+            "icon": "costPic.png"
         }
     ]
 
