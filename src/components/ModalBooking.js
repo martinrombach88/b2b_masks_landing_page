@@ -63,7 +63,7 @@ function ModalBooking({closeModal}) {
 
                       <div className="formField">
                         <label htmlFor="website">Website</label>
-                        <input type="url" name="website" {...register('website', { required: false })}/>
+                        <input type="text" name="website" {...register('website', { required: false })}/>
                       </div>
                     </div> 
 
