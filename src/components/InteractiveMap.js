@@ -33,7 +33,7 @@ const InteractiveMap = () => {
             return(               
                 <div className={`mapStudy ${(eval(p.box)) ? "" : "hidden"}`} key={p.id} id={p.id}>
                     <div className="hideButtonDiv">
-                        <button className="hideButton" onClick={() => btnBoxChange(p.hideBox)}>X</button>
+                        <button className="hideButtonStudy" onClick={() => btnBoxChange(p.hideBox)}>X</button>
                     </div>
                     <table>
                         <tbody>
@@ -45,9 +45,6 @@ const InteractiveMap = () => {
                         </tbody>
                     </table>
 
-                    {/* Setting the state on the class is okay. Setting the button the box, not ok. */}
-
-                    {/* <button>Hide</button> */}
                 </div>
             )
         });

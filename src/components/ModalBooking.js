@@ -24,10 +24,14 @@ function ModalBooking({closeModal}) {
         <div className="modalShadow"></div>
         <div id='contactForm' className="contactBorder">
           <div id="contactBooking">
-            <div id="bookTitle"><h2>Book a Meeting</h2></div>
-                
-                <button className="hideButton" id="xBtn" onClick={() => closeModal(false)}>X</button>
+          
           </div>
+            <div id="bookTitle">
+              <h2>Book a Meeting</h2>
+              <button className="hideButtonBooking" id="xBtn" onClick={() => closeModal(false)}>X</button>
+            </div>
+                
+
                   <p>To schedule a meeting with the Cleankit Sales Team, fill in the form
                     and click 'Submit'.<br/> You will receive a confirmation email soon after.</p>
                   <form onSubmit={handleSubmit(onSubmit)}>
