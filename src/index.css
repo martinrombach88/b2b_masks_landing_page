@@ -370,14 +370,15 @@ button, input[type="submit"]{
 
 /* ~~~~~~~~~~~~~~~~ CONTACT FORM / CALL TO ACTION ~~~~~~~~~~~~~~~~ */
 
+/*  */
+
 #contact {
-  display:flex;
-  background-image: url("images/factorypic3.jpg");
+  display:flex; 
   background-size:cover;
   flex-direction: column;
   align-items:center;
   height:100vh;
-  justify-content: space-around;
+  background-image: url("images/factorypic3.jpg");
  }
 
  #contact button{
@@ -421,11 +422,13 @@ button, input[type="submit"]{
   display:flex;
   justify-content: center;
   width:100%;
+  margin:5%;
 }
 
 .contactBorder {
   border: black 1px solid;
   border-radius:8px;
+  margin:5%;
 }
 
 #phoneIcon {
@@ -552,6 +555,19 @@ button, input[type="submit"]{
 /* ~~~~~~~~~~~~~~~~ MEDIA QUERIES  ~~~~~~~~~~~~~~~~ */
 
 @media (min-width:480px){
+
+  #contact {
+    justify-content:space-evenly;
+  }
+
+  #contactHeader {
+    margin:0;
+  }
+  
+  .contactBorder {
+    margin:0;
+  }
+  
   #topBar {
     flex-direction: row;
     justify-content: space-between;
