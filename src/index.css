@@ -342,7 +342,7 @@ button, input[type="submit"]{
 }
 /* Study buttons 0 */
 #study_5_btn {
-  top: 33%;
+  top: 30%;
   right: 14%;
 }
 /* Study buttons 0 */
@@ -713,13 +713,13 @@ button, input[type="submit"]{
   
   /* Study buttons 480 */
   #study_4{
-    top: 19%;
+    top: 30%;
     left: 27%;
   }
   
   /* Study buttons 480 */
   #study_4_btn {
-    top: 19%;
+    top: 30%;
     right: 32%;
   }
   
