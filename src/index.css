@@ -295,8 +295,6 @@ button, input[type="submit"]{
   cursor:pointer;
 }
 
-
-
 .hideButtonStudy {
   background:none;
   border:none;
@@ -322,34 +320,34 @@ button, input[type="submit"]{
   left:5%;
   font-size: 2.5h;
 }
-
+/* Study buttons 0 */
 #study_1_btn { 
   left:11%;
-  top: 30%;
+  top: 24%;
 }
-
+/* Study buttons 0 */
 #study_2_btn {
   left:13%;
-  top: 45%;
+  top: 30%;
 }
-
+/* Study buttons 0 */
 #study_3_btn {
   left: 35%;
-  top: 35%;
+  top: 25%;
 }
-
+/* Study buttons 0 */
 #study_4_btn {
-  top: 30%;
+  top: 20%;
   right: 22%;
 }
-
+/* Study buttons 0 */
 #study_5_btn {
-  top: 47%;
+  top: 33%;
   right: 14%;
 }
-
+/* Study buttons 0 */
 #study_6_btn {
-  top: 55%;
+  top: 38%;
   right: 3%;
 }
 
@@ -553,10 +551,7 @@ button, input[type="submit"]{
 
 
 /* ~~~~~~~~~~~~~~~~ MEDIA QUERIES  ~~~~~~~~~~~~~~~~ */
-@media (min-width:400px) {
 
-
-}
 @media (min-width:480px){
 
   #contact {
@@ -633,11 +628,7 @@ button, input[type="submit"]{
     height: 100vh;
   }
 
-  #study_1{
-    top:34%;
-    left:11%;
-    font-size: 3vh;
-  }
+
   
   .mapStudy {
     border-radius:8px;
@@ -658,62 +649,7 @@ button, input[type="submit"]{
     margin-left:5%;
     margin-right:5%;
   }
-  /* #study_1_btn { 
-    top:34%;
-    left:11%;
-  }
-  
-  #study_2{
-    top: 40%;
-    left:13%;
-  }  
-  
-  #study_2_btn {
-    top: 50%;
-    left:13%;
-  }
-  
-  #study_3{
-    top:44%;
-    left:25%;
-  } 
-  
-  #study_3_btn {
-    top:44%;
-    left:45%;
-  }
-  
-  #study_4{
-    top: 19%;
-    left: 27%;
-  }
-  
-  #study_4_btn {
-    top: 30%;
-    right: 32%;
-  }
-  
-  
-  #study_5{
-    top: 58%;
-    left: 21%;
-  } 
-  
-  #study_5_btn {
-    right: 20%;
-    top: 58%;
-  }
-  
-  #study_6{
-    top:61%;
-    left:34%;
 
-  }
-  
-  #study_6_btn {
-    right: 10%;
-    top: 62%;
-  } */
   
   #contactForm {
     font-size:1em;
@@ -737,6 +673,81 @@ button, input[type="submit"]{
   .contactOption p {
     margin: 3vh;
   }
+
+  /* Study buttons 480 */
+  #study_1{
+    top:34%;
+    left:11%;
+    font-size: 3vh;
+  }
+
+  /* Study buttons 480 */
+   #study_1_btn { 
+    top:34%;
+    left:11%;
+  }
+  
+  /* Study buttons 480 */
+  #study_2{
+    top: 40%;
+    left:13%;
+  }  
+
+  /* Study buttons 480 */
+  #study_2_btn {
+    top: 50%;
+    left:13%;
+  }
+  
+  /* Study buttons 480 */
+  #study_3{
+    top:44%;
+    left:25%;
+  } 
+  
+  /* Study buttons 480 */
+  #study_3_btn {
+    top:44%;
+    left:45%;
+  }
+  
+  /* Study buttons 480 */
+  #study_4{
+    top: 19%;
+    left: 27%;
+  }
+  
+  /* Study buttons 480 */
+  #study_4_btn {
+    top: 19%;
+    right: 32%;
+  }
+  
+  /* Study buttons 480 */
+  #study_5{
+    top: 58%;
+    left: 21%;
+  } 
+  
+    /* Study buttons 480 */
+  #study_5_btn {
+    right: 20%;
+    top: 58%;
+  }
+  
+  /* Study buttons 480 */
+  #study_6{
+    top:61%;
+    left:34%;
+
+  }
+
+  /* Study buttons 480 */
+  #study_6_btn {
+    right: 10%;
+    top:61%;
+  } 
+
   @media (min-width:670px){
     .contactBooking {
       width:20%;
