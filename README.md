@@ -4,4 +4,4 @@ This landing page is an example website for a KF60 mask factory looking for bulk
 
 ## Demo 
 
-
+<kbd><img src="/src/images/landing_screen.gif" /></kbd>
